@@ -1,4 +1,9 @@
-# dictionnaire-acronymes-web
+# Dictionnaire des acronymes et sigles
+
+- retrieve data
+- show first 20 in a table
+- search
+- pagination
 
 ## Project setup
 ```
