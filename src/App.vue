@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div>
-    <input v-model="search" v-on:keyup="makeSearch">
+    <div id="app2">
+    <input id="search" v-model="search" v-on:keyup="makeSearch">
       <b-container
         fluid
       >
@@ -62,6 +62,7 @@
 .full-height {
   height: 100vh;
 }
+
 </style>
 
 <script>
@@ -95,9 +96,14 @@ export default {
     fields () {
       return [
         {
-          key: 'rowid',
-          isRowHeader: true
-        }, ...this.columns.filter(c => c !== 'rowid')
+          key: 'term'
+        },
+        {
+          key: 'definition'
+        },
+        {
+          key: 'source'
+        }
       ]
     }
   },

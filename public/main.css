@@ -1,0 +1,18 @@
+html {
+  font-size: 20pt;
+  width:100%;
+}
+
+#search {
+  display:inline-block;
+  margin: 20px auto;
+  font-size:24pt;
+}
+#app2 {
+text-align:center;
+}
+
+table {
+  width: 90%;
+  text-align:left;
+}
