@@ -1,8 +1,21 @@
 <template>
   <div>
     <div id="app2">
-    <input id="search" v-model="search" v-on:keyup="makeSearch">
+    <input
+      id="search"
+      v-model="search"
+      v-on:keyup="makeSearch"
+      title="Champ de recherche"
+      placeholder="Sigle ou acronyme"
+      aria-label="Rechercher un sigle ou acronyme"
+      type="search"
+      >
     <table v-if="rows[0]">
+      <colgroup>
+        <col style="min-width=80px;width=10%"/>
+        <col style=""/>
+        <col style="min-width=100px;width=15%"/>
+      </colgroup>
       <thead>
         <td>Sigle</td>
         <td>Définition</td>
