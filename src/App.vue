@@ -1,15 +1,16 @@
 <template>
   <div>
     <div>
-      
+    <input v-model="search" v-on:keyup="makeSearch">
       <b-container
         fluid
       >
         <b-table
+          v-if="rows.length > 0"
           small
           :fields="fields"
           primary-key="rowid"
-          :items="provider"
+          :items="rows"
           head-variant="light"
           :no-border-collapse="true"
           responsive
@@ -48,12 +49,6 @@
         variant="secondary"
       />
     </div>
-    <div
-      class="center text-muted"
-      v-if="!total && !loading"
-    >
-      Ce fichier n'est pas prévisualisable
-    </div>
   </div>
 </template>
 
@@ -71,12 +66,12 @@
 
 <script>
 import axios from 'axios'
-//import BootstrapVue from 'bootstrap-vue'
-//import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+import Vue from 'vue'
 //import 'bootstrap/dist/css/bootstrap.css'
 //import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-//Vue.use(BootstrapVue)
+Vue.use(BootstrapVue)
 
 export default {
   data () {
@@ -86,12 +81,14 @@ export default {
       error: null,
       currentPage: 1,
       perPage: 100,
-      loading: true,
+      loading: false,
+      search: "",
       resource: {
         url: "https://www.data.gouv.fr/fr/datasets/r/0fca6fc3-4919-458d-9c81-a2cf54a801ba"
       },
       showRowId: false,
-      columns: []
+      columns: [],
+      rows: []
     }
   },
   computed: {
@@ -107,7 +104,9 @@ export default {
   async mounted () {
   },
   methods: {
-    provider (ctx, callback) {
+    makeSearch() {
+      let ctx=this
+      console.log(this.search);
       const url = 'https://csvapi.data.gouv.fr/apify'
       this.loading = true
       axios.get(`${url}?url=${encodeURIComponent(this.resource.url)}`)
@@ -116,7 +115,7 @@ export default {
           return this.endpoint
         })
         .then(endpoint => {
-          let params = `_offset=${(ctx.currentPage - 1) * ctx.perPage}&_shape=objects`
+          let params = `_offset=${(ctx.currentPage - 1) * ctx.perPage}&_shape=objects&term__contains=${this.search}`
           if (!this.showRowId) {
             params += '&_rowid=hide'
           }
@@ -126,7 +125,7 @@ export default {
           this.loading = false
           this.columns = res.data.columns
           this.total = res.data.total
-          callback(res.data.rows)
+          this.rows = res.data.rows
         })
         .catch((error) => {
           this.loading = false
@@ -135,7 +134,7 @@ export default {
           } else {
             this.error = error.toString()
           }
-          callback(null)
+          //callback(null)
         })
       return null
     }
