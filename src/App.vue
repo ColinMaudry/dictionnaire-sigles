@@ -2,77 +2,35 @@
   <div>
     <div id="app2">
     <input id="search" v-model="search" v-on:keyup="makeSearch">
-      <b-container
-        fluid
-      >
-        <b-table
-          v-if="rows.length > 0"
-          small
-          :fields="fields"
-          primary-key="rowid"
-          :items="rows"
-          head-variant="light"
-          :no-border-collapse="true"
-          responsive
-          :per-page="perPage"
-          :current-page="currentPage"
-        >
-          <template #cell(rowid)="data">
-            <b-link
-              append
-              :to="`row/${data.item.rowid}`"
-            >
-              {{ data.item.rowid }}
-            </b-link>
-          </template>
-          <template
-            v-slot:table-caption
-            v-if="error"
-          >
-            <b-container>
-              <b-alert
-                show
-                variant="danger"
-              >
-                {{ error }}
-              </b-alert>
-            </b-container>
-          </template>
-        </b-table>
-      </b-container>
+    <table v-if="rows[0]">
+      <thead>
+        <td>Sigle</td>
+        <td>Définition</td>
+        <td>Source</td>
+        </thead>
+        <tbody>
+          <tr v-for="row in rows" :key="row.term + row.definition">
+            <td>{{ row.term }}</td>
+            <td>{{ row.definition }}</td>
+            <td>{{ row.source }}</td>
+          </tr>
+        </tbody>
+    </table>
     </div>
-    <div v-if="loading">
-      <b-spinner
-        small
-        type="grow"
-        label="Loading..."
-        variant="secondary"
-      />
+    <div v-if="loading && !rows">
+     <p>loading...</p> 
     </div>
   </div>
 </template>
 
 <style>
-.full-width {
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-}
-.full-height {
-  height: 100vh;
-}
 
 </style>
 
 <script>
 import axios from 'axios'
-import BootstrapVue from 'bootstrap-vue'
-import Vue from 'vue'
 //import 'bootstrap/dist/css/bootstrap.css'
 //import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-Vue.use(BootstrapVue)
 
 export default {
   data () {
