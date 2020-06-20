@@ -9,6 +9,7 @@
       placeholder="Sigle ou acronyme"
       aria-label="Rechercher un sigle ou acronyme"
       type="search"
+      autofocus="autofocus" 
       >
     <table v-if="rows[0]">
       <colgroup>
