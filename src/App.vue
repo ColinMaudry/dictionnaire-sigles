@@ -13,9 +13,9 @@
       >
     <table v-if="rows[0]">
       <colgroup>
-        <col style="min-width=80px;width=10%"/>
+        <col style="min-width=100px"/>
         <col style=""/>
-        <col style="min-width=100px;width=15%"/>
+        <col style="min-width=12Opx"/>
       </colgroup>
       <thead>
         <td>Sigle</td>
