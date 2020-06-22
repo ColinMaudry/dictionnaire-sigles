@@ -11,7 +11,7 @@
       type="search"
       autofocus="autofocus" 
       >
-    <table v-if="rows[0]">
+    <table id="results" v-if="rows[0]">
       <colgroup>
         <col style="min-width=100px"/>
         <col style=""/>
@@ -43,8 +43,6 @@
 
 <script>
 import axios from 'axios'
-//import 'bootstrap/dist/css/bootstrap.css'
-//import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default {
   data () {
