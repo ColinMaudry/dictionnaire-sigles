@@ -55,7 +55,7 @@ export default {
       loading: false,
       search: "",
       resource: {
-        url: "https://www.data.gouv.fr/fr/datasets/r/0fca6fc3-4919-458d-9c81-a2cf54a801ba"
+        url: "https://static.data.gouv.fr/resources/dictionnaire-des-acronymes-de-ladministration/20200622-151147/acronymes.csv"
       },
       showRowId: false,
       columns: [],
