@@ -1,10 +1,37 @@
 <template>
-  <div>
-    <nav id="nav">
-      <router-link to="/a-propos">À propos</router-link>
-      <router-link to="/">Dictionnaire</router-link>
-    </nav>
-    <router-view></router-view>
+    <div id="app2">
+      <input
+        id="search"
+        v-model="search"
+        v-on:keyup="makeSearch"
+        title="Champ de recherche"
+        placeholder="Sigle ou acronyme"
+        aria-label="Rechercher un sigle ou acronyme"
+        type="search"
+        autofocus="autofocus"
+        >
+      <table id="results" v-if="rows[0]">
+        <colgroup>
+          <col style="min-width=100px"/>
+          <col style=""/>
+          <col style="min-width=12Opx"/>
+        </colgroup>
+        <thead>
+          <td>Sigle</td>
+          <td>Définition</td>
+          <td>Source</td>
+          </thead>
+          <tbody>
+            <tr v-for="row in rows" :key="row.term + row.definition">
+              <td>{{ row.term }}</td>
+              <td>{{ row.definition }}</td>
+              <td>{{ row.source }}</td>
+            </tr>
+          </tbody>
+      </table>
+      <div v-if="loading && !rows">
+       <p>loading...</p> 
+    </div>
   </div>
 </template>
 
@@ -24,7 +51,7 @@ export default {
       currentPage: 1,
       perPage: 100,
       loading: false,
-      search: "",
+      search: this.$route.params.search || "",
       resource: {
         url: "https://static.data.gouv.fr/resources/dictionnaire-des-acronymes-de-ladministration/20200622-151147/acronymes.csv"
       },
@@ -49,6 +76,9 @@ export default {
     }
   },
   async mounted () {
+    if (this.search) {
+      this.makeSearch();
+    }
   },
   methods: {
     makeSearch() {
