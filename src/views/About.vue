@@ -51,7 +51,7 @@
   <li>csv</li>
   <li>json</li>
   <li>xml</li>
-  <li>ods, xslx</li>
+  <li>ods, xlsx</li>
   <li>html</li>
 </ul>
 
