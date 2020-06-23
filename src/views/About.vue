@@ -2,7 +2,7 @@
   <div id="about">
 <h1>Dictionnaire des sigles de l'administration française</h1>
 
-<p>Ce dictionnaire en ligne est destiné à combler le fossé qu'il existe en France entre les personnes qui connaissent le sens des sigles, et celles qui ne le connaissent pas.</p>
+<p>Ce dictionnaire en ligne est destiné à combler le fossé qui existe en France entre les personnes qui connaissent le sens des sigles, et celles qui ne le connaissent pas.</p>
 
 <p>Les données de ce dictionnaire ont été rassemblées et triées par Colin Maudry. Elles peuvent être téléchargées <a href="https://www.data.gouv.fr/datasets/5ee0d624d915e528468166c6">sur data.gouv.fr</a>, et sont publiées selon les termes de la <a href="http://creativecommons.org/publicdomain/zero/1.0/">licence Creative Commons Zero</a>.</p>
 
@@ -71,7 +71,7 @@
 <p>Ce site dépose un petit fichier texte (un « cookie ») sur votre ordinateur lorsque vous le consultez. Cela nous permet de mesurer le nombre de visites et de comprendre quelles sont les pages les plus consultées.</p>
 
 <iframe
-        style="border: 0; height: 200px; width: 600px;"
+        style="border: 0; height: 200px; width: 600px;" title="Opt-out du cookie de suivi"
         src="https://analytics.maudry.com/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=&fontColor=&fontSize=&fontFamily="
         ></iframe>
 
