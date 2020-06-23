@@ -10,6 +10,8 @@
 
 <p>Cette application a été développée par Colin Maudry (<a href="https://github.com/ColinMaudry/">Github</a>, <a href="https://twitter.com/col1m">Twitter</a>). Quelques précieuses heures ont été économisées grâce à du code partagé par <a href="https://github.com/taniki">Tam-Kien Duong</a>.</p>
 
+<p>Elle se veut volontairement minimaliste de façon à être accessible, rapide et peu gourmande en énergie.</p>
+
 <h2 id="lessources">Les sources</h2>
 
 <ul>

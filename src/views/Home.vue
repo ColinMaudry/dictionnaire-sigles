@@ -25,7 +25,7 @@
             <tr v-for="row in rows" :key="row.term + row.definition">
               <td>{{ row.term }}</td>
               <td>{{ row.definition }}</td>
-              <td>{{ row.source }}</td>
+              <td><a v-bind:href="row.url_source" target="_blank">{{ row.source }}</a></td>
             </tr>
           </tbody>
       </table>
@@ -53,28 +53,14 @@ export default {
       loading: false,
       search: this.$route.params.search || "",
       resource: {
-        url: "https://static.data.gouv.fr/resources/dictionnaire-des-acronymes-de-ladministration/20200622-151147/acronymes.csv"
+        url: "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200623-140224/acronymes.csv"
       },
       showRowId: false,
       columns: [],
       rows: []
     }
   },
-  computed: {
-    fields () {
-      return [
-        {
-          key: 'term'
-        },
-        {
-          key: 'definition'
-        },
-        {
-          key: 'source'
-        }
-      ]
-    }
-  },
+  computed: {},
   async mounted () {
     if (this.search) {
       this.makeSearch();
