@@ -44,9 +44,10 @@
 
 <h2 id="commentcontribuer">Comment contribuer</h2>
 
-<p>Si vous souhaitez ajouter ou corriger un sigle, merci de remplir <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlXIO--HFllz863bqz9opqBJH70pGojLHuOAgGtly9f3N2dg/viewform">ce formulaire Google</a>.</p>
+<p>Si vous souhaitez ajouter ou corriger un sigle, ça se passe <a href="https://docs.google.com/spreadsheets/d/1kEJzE-8nCBZakKWptfrc5HhuctOEnMYy8AgxGz6dNW4/edit">par ici</a> (tableur Google).</p>
 
-<p>Si vous souhaitez ajouter une liste de sigles à ce dictionnaire, merci de <a href="#contact">me contacter</a>. Il doit s'agir de sigles définis par l'administration française ou utilisés dans la loi française et non présents dans ke présent dictionnaire.</p>
+<p>Si vous souhaitez ajouter une épaisse liste de sigles à ce dictionnaire et que vous l'avez sous forme de fichier, merci de <a href="#contact">me contacter</a>. Il doit s'agir de sigles utilisés par l'administration française ou utilisés dans la loi française et non présents dans ce dictionnaire.</p>
+<p>Souvent, la limite à ne pas franchir est celle du vocabulaire technique ou scientifique, même s'il y a des exceptions pour les termes les plus employés.</p>
 
 <p>Merci de privilégier les formats structurés, par ordre de préférence :</p>
 <ul>
@@ -57,12 +58,10 @@
   <li>html</li>
 </ul>
 
-
 <h2 id="contact">Contact</h2>
 
 <ul>
 <li>colin@maudry.com</li>
-
 <li><a href="https://twitter.com/col1m">@col1m</a></li>
 </ul>
 
