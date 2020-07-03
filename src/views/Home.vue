@@ -32,7 +32,7 @@
       </table>
       <p v-show="!loading && !rows[0]">Le dictionnaire ne contient pas de sigle contenant le texte <strong>{{ search }}</strong>.</p>
       <div v-show="loading">
-       <p>loading...</p> 
+       <p>Chargement...</p> 
     </div>
   </div>
 </template>
