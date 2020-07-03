@@ -10,7 +10,7 @@
         type="search"
         autofocus="autofocus"
         >
-      <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les XX que comptent ce dictionnaire</p>
+      <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les 4 320 que compte ce dictionnaire</p>
       <table id="results" v-show="rows[0] && !loading">
         <colgroup>
           <col style="min-width=100px"/>
@@ -30,7 +30,7 @@
             </tr>
           </tbody>
       </table>
-      <p v-show="!loading && !rows[0]">Le dictionnaire ne contient pas de sigle contenant le texte <strong>{{ search }}</strong>.</p>
+      <p v-show="!loading && !rows[0] && search !== ''">Le dictionnaire ne contient pas de sigle contenant le texte <strong>{{ search }}</strong>.</p>
       <div v-show="loading">
        <p>Chargement...</p> 
     </div>
@@ -38,7 +38,9 @@
 </template>
 
 <style>
-
+input {
+  border: solid 2px green;
+}
 </style>
 
 <script>
