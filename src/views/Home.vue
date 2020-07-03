@@ -10,7 +10,8 @@
         type="search"
         autofocus="autofocus"
         >
-      <table id="results" v-if="rows[0]">
+      <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les XX que comptent ce dictionnaire</p>
+      <table id="results" v-show="rows[0] && !loading">
         <colgroup>
           <col style="min-width=100px"/>
           <col style=""/>
@@ -29,7 +30,8 @@
             </tr>
           </tbody>
       </table>
-      <div v-if="loading && !rows">
+      <p v-show="!loading && !rows[0]">Le dictionnaire ne contient pas de sigle contenant le texte <strong>{{ search }}</strong>.</p>
+      <div v-show="loading">
        <p>loading...</p> 
     </div>
   </div>
