@@ -14,23 +14,34 @@ html {
   width:100%;
   background-color:#242424;
   color:#eee;
+  padding:6px;
 }
 
-nav > * {
-  float:right;
+body {
+  padding: 0 12px;
+}
+
+nav a {
   margin-left: 20px;
   font-size:0.8em;
   text-decoration: none;
 }
 
-nav > *:hover {
+nav a:hover {
   text-decoration:underline;
 }
 
-#search {
+nav li {
   display:inline-block;
-  margin: 20px auto;
-  font-size:24pt;
+  list-style-image:none;
+  list-style:none;
+}
+
+nav ul {
+  margin:0;
+  text-align:right;
+}
+
 a, a:visited {
   color:orange;
 }
