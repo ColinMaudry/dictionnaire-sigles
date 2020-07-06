@@ -64,7 +64,7 @@ text-align:center;
 }
 
 table#results {
-  width: 90%;
+  border-collapse:collapse;
   text-align:left;
   margin:auto;
 }
@@ -72,11 +72,19 @@ thead {
   font-weight:bold;
 }
 
+td {
+  padding: 3px 6px;
+}
+
 tr:nth-of-type(odd) {
   background-color: #444;
 }
+
 div#search-frame {
   border: 3px solid orange;
+  padding: 6px;
+  margin: 30px auto;
+  width: 300px;
 }
 /* For small screens */
 @media (max-width: 576px) {
@@ -92,12 +100,7 @@ div#search-frame {
   }
 
   table#results {
-    border-collapse:collapse;
     width: 99%;
-  }
-
-  tr {
-    border-top: solid 1pt #ccc;
   }
 }
 }

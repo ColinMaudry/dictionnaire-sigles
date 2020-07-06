@@ -1,5 +1,6 @@
 <template>
     <div id="app2">
+      <h2 v-show="!rows[0]">Dictionnaire des sigles de l'administration française</h2>
       <div id="search-frame">
         <input
           id="search"
@@ -13,11 +14,11 @@
           >
       </div>
       <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les 4 320 que compte ce dictionnaire</p>
-      <table id="results" v-show="rows[0] && !loading">
+      <table id="results" v-show="rows[0] && !loading && search">
         <colgroup>
-          <col style="min-width=100px"/>
           <col style=""/>
-          <col style="min-width=12Opx"/>
+          <col style=""/>
+          <col style=""/>
         </colgroup>
         <thead>
           <td>Sigle</td>
@@ -72,7 +73,8 @@ export default {
   },
   methods: {
     makeSearch() {
-      let ctx=this
+    if (this.search !== "") {
+      let ctx=this;
       console.log(this.search);
       const url = 'https://csvapi.data.gouv.fr/apify'
       this.loading = true
@@ -104,6 +106,9 @@ export default {
           //callback(null)
         })
       return null
+      } else {
+        this.rows=[]
+      }
     }
   }
 }
