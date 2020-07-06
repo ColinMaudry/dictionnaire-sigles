@@ -45,8 +45,6 @@
 </style>
 
 <script>
-import axios from 'axios'
-
 export default {
   data () {
     return {
@@ -72,40 +70,52 @@ export default {
     }
   },
   methods: {
+    request(method, url) {
+      return new Promise(function (resolve, reject) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.onload = resolve;
+        xhr.onerror = reject;
+        xhr.send();
+    });
+    },
     makeSearch() {
     if (this.search !== "") {
       let ctx=this;
       console.log(this.search);
       const url = 'https://csvapi.data.gouv.fr/apify'
       this.loading = true
-      axios.get(`${url}?url=${encodeURIComponent(this.resource.url)}`)
+      this.request("GET", `${url}?url=${encodeURIComponent(this.resource.url)}`)
         .then((res) => {
-          this.endpoint = res.data.endpoint
-          return this.endpoint
+          let response=JSON.parse(res.target.response);
+          this.endpoint = response.endpoint;
+          return this.endpoint;
         })
         .then(endpoint => {
           let params = `_offset=${(ctx.currentPage - 1) * ctx.perPage}&_shape=objects&term__contains=${this.search}`
           if (!this.showRowId) {
             params += '&_rowid=hide'
           }
-          return axios.get(`${endpoint}?${params}`)
+          return this.request("GET", `${endpoint}?${params}`)
         })
-        .then(res => {
+        .then((res) => {
+        let response=JSON.parse(res.target.response);
           this.loading = false
-          this.columns = res.data.columns
-          this.total = res.data.total
-          this.rows = res.data.rows
+          this.columns = response.columns
+          this.total = response.total
+          this.rows = response.rows
         })
         .catch((error) => {
           this.loading = false
-          if (error.response) {
-            this.error = error.response.data.error
+          if (error.target.response) {
+            this.error = error.response.error
           } else {
             this.error = error.toString()
           }
           //callback(null)
         })
       return null
+
       } else {
         this.rows=[]
       }
