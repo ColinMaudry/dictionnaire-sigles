@@ -1,15 +1,17 @@
 <template>
     <div id="app2">
-      <input
-        id="search"
-        v-model="search"
-        v-on:keyup="makeSearch"
-        title="Champ de recherche"
-        placeholder="Sigle ou acronyme"
-        aria-label="Rechercher un sigle ou acronyme"
-        type="search"
-        autofocus="autofocus"
-        >
+      <div id="search-frame">
+        <input
+          id="search"
+          v-model="search"
+          v-on:keyup="makeSearch"
+          title="Champ de recherche"
+          placeholder="Sigle ou acronyme"
+          aria-label="Rechercher un sigle ou acronyme"
+          type="search"
+          autofocus="autofocus"
+          >
+      </div>
       <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les 4 320 que compte ce dictionnaire</p>
       <table id="results" v-show="rows[0] && !loading">
         <colgroup>
@@ -38,9 +40,7 @@
 </template>
 
 <style>
-input {
-  border: solid 2px green;
-}
+
 </style>
 
 <script>
