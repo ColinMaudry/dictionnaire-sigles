@@ -154,6 +154,14 @@ export default {
       rows: []
     }
   },
+  created() {
+    let split=window.location.href.split("/");
+    let search=split[split.length - 1];
+    if (search !== "#") {
+      this.search=search;
+      this.makeSearch();
+    }
+  },
   computed: {},
   async mounted () {
     if (this.search) {
@@ -173,7 +181,7 @@ export default {
     makeSearch() {
     if (this.search !== "") {
       let ctx=this;
-      console.log(this.search);
+      console.log("Let's search " + this.search);
       const url = 'https://csvapi.data.gouv.fr/apify'
       this.loading = true
       this.request("GET", `${url}?url=${encodeURIComponent(this.resource.url)}`)
