@@ -42,9 +42,9 @@
 
     <p>Ce dictionnaire en ligne est destiné à combler le fossé qui existe en France entre les personnes qui connaissent le sens des sigles, et celles qui ne le connaissent pas.</p>
 
-    <p>Les données de ce dictionnaire ont été rassemblées et triées par Colin Maudry. Elles peuvent être téléchargées <a href="https://www.data.gouv.fr/datasets/5ee0d624d915e528468166c6">sur data.gouv.fr</a>, et sont publiées selon les termes de la <a href="http://creativecommons.org/publicdomain/zero/1.0/">licence Creative Commons Zero</a>.</p>
+    <p><strong>Les données</strong> de ce dictionnaire ont été rassemblées et triées par <a href="https://colin.maudry.fr">Colin Maudry</a>. Elles peuvent être téléchargées <a href="https://www.data.gouv.fr/datasets/5ee0d624d915e528468166c6">sur data.gouv.fr</a>, et sont publiées selon les termes de la <a href="http://creativecommons.org/publicdomain/zero/1.0/">licence Creative Commons Zero</a>.</p>
 
-    <p>Le code source de cette application est hébergé <a href="https://github.com/ColinMaudry/dictionnaire-sigles">sur github.com</a>, et est publié selon les termes de la licence MIT.</p>
+    <p><strong>Le code source</strong> de cette application est hébergé <a href="https://github.com/ColinMaudry/dictionnaire-sigles">sur github.com</a>, et est publié selon les termes de la licence MIT.</p>
 
     <p>Cette application a été développée par Colin Maudry (<a href="https://github.com/ColinMaudry/">Github</a>, <a href="https://twitter.com/col1m">Twitter</a>). Quelques précieuses heures ont été économisées grâce à du code partagé par <a href="https://github.com/taniki">Tam-Kien Duong</a>.</p>
 
@@ -107,16 +107,17 @@
 
     <h3 id="cookiesdpossetoptout">Cookies déposés et opt-out</h3>
 
-    <p>Ce site dépose un petit fichier texte (un « cookie ») sur votre ordinateur lorsque vous le consultez. Cela nous permet de mesurer le nombre de visites et de comprendre quelles sont les pages les plus consultées.</p>
-
-    <iframe
-    style="border: 0; height: 200px; width: 600px;" title="Opt-out du cookie de suivi"
-    src="https://analytics.maudry.com/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=&fontColor=&fontSize=&fontFamily="
-    ></iframe>
+    <p>Ce site dépose un petit fichier texte (un « cookie ») sur votre ordinateur lorsque vous le consultez. Cela me permet de mesurer le nombre de visites et de comprendre quelles sont les pages les plus consultées.</p>
+    <div style="background-color: #ccc;">
+      <iframe
+      style="border: 0; height: 200px; width: 600px;" title="Opt-out du cookie de suivi"
+      src="https://analytics.maudry.com/index.php?module=CoreAdminHome&action=optOut&language=fr&backgroundColor=&fontColor=&fontSize=&fontFamily="
+      ></iframe>
+    </div>
 
     <p>Ce site n'affiche pas de bannière de consentement aux cookies, pourquoi ?</p>
 
-    <p>C'est vrai, vous n'avez pas eu à cliquer sur un bloc qui recouvre la moitié de la page pour dire que vous êtes d'accord avec le dépôt de cookies — même si vous ne savez pas ce que ça veut dire !</p>
+    <p>C'est vrai, vous n'avez pas eu à cliquer sur un bloc qui recouvre la moitié de la page pour dire que vous êtes d'accord avec le dépôt de cookies.</p>
 
     <p>Rien d'exceptionnel, je respecte simplement la loi, qui dit que certains outils de suivi d'audience, correctement configurés pour respecter la vie privée, sont exemptés d'autorisation préalable.</p>
 
