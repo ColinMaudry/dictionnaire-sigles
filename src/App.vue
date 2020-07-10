@@ -99,8 +99,8 @@
     <h2 id="contact">Contact</h2>
 
     <ul>
-      <li>colin@maudry.com</li>
-      <li><a href="https://twitter.com/col1m">@col1m</a></li>
+      <li>email : colin+sigles@maudry.com</li>
+      <li>twitter : <a href="https://twitter.com/col1m">@col1m</a></li>
     </ul>
 
     <h2 id="vieprive">Vie privée</h2>
