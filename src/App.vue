@@ -109,7 +109,7 @@
 
     <h2 id="vieprive">Vie privée</h2>
 
-    <p>Ce site dépose un petit fichier texte (un « cookie ») sur votre ordinateur lorsque vous le consultez. Cela me permet de mesurer le nombre de visites et de distinguer les nouveaux visiteurs des utilisateurs réguliers.</p>
+    <p>Ce site dépose un petit fichier texte (un « cookie ») sur votre ordinateur lorsque vous le consultez (<a href ="https://fr.wikipedia.org/wiki/Cookie_(informatique)">Wikipédia</a>). Cela me permet de mesurer le nombre de visites et de distinguer les nouveaux visiteurs des utilisateurs réguliers.</p>
     <div style="background-color: #ccc;">
       <iframe
       style="border: 0; height: 200px; width: 600px;" title="Opt-out du cookie de suivi"
