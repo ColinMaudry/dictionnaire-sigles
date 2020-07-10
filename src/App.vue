@@ -42,13 +42,17 @@
 
     <p>Ce dictionnaire en ligne est destiné à combler le fossé qui existe en France entre les personnes qui connaissent le sens des sigles, et celles qui ne le connaissent pas.</p>
 
-    <p><strong>Les données</strong> de ce dictionnaire ont été rassemblées et triées par <a href="https://colin.maudry.fr">Colin Maudry</a>. Elles peuvent être téléchargées <a href="https://www.data.gouv.fr/datasets/5ee0d624d915e528468166c6">sur data.gouv.fr</a>, et sont publiées selon les termes de la <a href="http://creativecommons.org/publicdomain/zero/1.0/">licence Creative Commons Zero</a>.</p>
+    <p><strong>Les données</strong> de ce dictionnaire ont été rassemblées et triées par Colin Maudry à partir de plusieurs <a href="#lessources">sources</a>. Elles sont publiées selon les termes de la <a href="http://creativecommons.org/publicdomain/zero/1.0/">licence Creative Commons Zero</a>.</p>
 
-    <p><strong>Le code source</strong> de cette application est hébergé <a href="https://github.com/ColinMaudry/dictionnaire-sigles">sur github.com</a>, et est publié selon les termes de la licence MIT.</p>
-
-    <p>Cette application a été développée par Colin Maudry (<a href="https://github.com/ColinMaudry/">Github</a>, <a href="https://twitter.com/col1m">Twitter</a>). Quelques précieuses heures ont été économisées grâce à du code partagé par <a href="https://github.com/taniki">Tam-Kien Duong</a>.</p>
-
-    <p>Elle se veut volontairement minimaliste de façon à être accessible, rapide et peu gourmande en énergie.</p>
+    <ul>
+      <li><a href="https://www.data.gouv.fr/datasets/5ee0d624d915e528468166c6">Le jeu de données sur data.gouv.fr</a></li>
+    </ul>
+    <p><strong>Le code source</strong> de cette application a été rédigé par Colin Maudry à l'aide de plein de logiciels libres et est publié selon les termes de la licence MIT.</p>
+    <p>Quelques précieuses heures ont été économisées grâce à du code partagé par <a href="https://github.com/taniki">Tam-Kien Duong</a>.</p>
+    <p>Cette application se veut volontairement minimaliste de façon à être accessible, rapide et peu gourmande en énergie.</p>
+    <ul>
+      <li><a href="https://github.com/ColinMaudry/dictionnaire-sigles">Le code source sur github.com</a></li>
+    </ul>
 
    <h2 id="commentcontribuer">Comment contribuer</h2>
 
