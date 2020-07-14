@@ -1,6 +1,6 @@
-# Dictionnaire des acronymes et sigles
+# Dictionnaire des sigles
 
-See https://colinmaudry.github.io/dictionnaire-sigles
+See https://dicosigles.net
 
 ## Project setup
 ```
