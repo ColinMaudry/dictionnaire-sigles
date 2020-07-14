@@ -1,6 +1,6 @@
 # Dictionnaire des sigles
 
-See https://dicosigles.net
+See https://dicosigles.fr
 
 ## Project setup
 ```
