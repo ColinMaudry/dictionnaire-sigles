@@ -19,6 +19,7 @@ cd dist
 echo Deploying..
 git init
 git checkout -b gh-pages
+echo "dicosigles.fr" > ./CNAME
 git add -A
 git commit -m 'deploy'
 
