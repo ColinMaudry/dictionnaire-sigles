@@ -56,7 +56,7 @@
 
    <h2 id="commentcontribuer">Comment contribuer</h2>
 
-    <p>Si vous souhaitez ajouter ou corriger un sigle, ça se passe <a href="https://docs.google.com/spreadsheets/d/1kEJzE-8nCBZakKWptfrc5HhuctOEnMYy8AgxGz6dNW4/edit">par ici</a> (tableur Google).</p>
+    <p>Si vous souhaitez ajouter ou corriger un sigle, ça se passe <a href="https://docs.google.com/spreadsheets/d/1kEJzE-8nCBZakKWptfrc5HhuctOEnMYy8AgxGz6dNW4/edit">par ici</a> (tableur Google, pas besoin d'un compte).</p>
 
     <p>Si vous souhaitez ajouter une épaisse liste de sigles à ce dictionnaire et que vous l'avez sous forme de fichier, merci de <a href="#contact">me contacter</a>. Il doit s'agir de sigles utilisés par l'administration française ou utilisés dans la loi française et non présents dans ce dictionnaire.</p>
     <p>Souvent, la limite à ne pas franchir est celle du vocabulaire technique ou scientifique, même s'il y a des exceptions pour les termes les plus employés.</p>
