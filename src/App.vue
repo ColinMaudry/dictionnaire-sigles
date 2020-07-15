@@ -160,7 +160,7 @@ export default {
   created() {
     let split=window.location.href.split("/");
     let search=split[split.length - 1];
-    if (search !== "#") {
+    if (search !== "#" && search[0] !== "#") {
       this.search=search;
       this.makeSearch();
     }
