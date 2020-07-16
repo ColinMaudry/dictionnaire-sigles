@@ -63,11 +63,11 @@
 
     <p>Merci de privilégier les formats structurés, par ordre de préférence :</p>
     <ul>
-      <li>csv</li>
-      <li>json</li>
-      <li>xml</li>
-      <li>ods, xlsx</li>
-      <li>html</li>
+      <li>csv (comma separated values)</li>
+      <li>json (javascript object notation)</li>
+      <li>xml (extended markup language)</li>
+      <li>ods (Open Document spreadsheet), xlsx (Excel Microsoft Office Open XML Format Spreadsheet file)</li>
+      <li>html (hypertext markup language)</li>
     </ul>
 
    <h2 id="lessources">Les sources</h2>
