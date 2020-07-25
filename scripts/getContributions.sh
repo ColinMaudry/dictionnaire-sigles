@@ -14,13 +14,13 @@ echo ""
 echo "$headersDev" > data/contributions.csv
 curl -sL $contributionsUrl \
  | tail -n +2 \
- | xsv search -s "Statut sigle"  "Vérifié" \
- | xsv select Sigle,"Forme complète","Source","URL source sigle",Explication,"Source explication","URL source explication","Statut sigle","Statut explication" \
+ | xsv search -s "Statut sigle"  "Vérifié|Publié" \
+ | xsv select id,Sigle,"Forme complète","Source","URL source sigle",Explication,"Source explication","URL source explication","Statut sigle","Statut explication" \
  | tail -n +2 >> data/contributions.csv
 
 echo "Filtre des sigles avec explication vérifiée..."
 
-xsv search -s "explanation_status" "Vérifié" data/contributions.csv | \
+xsv search -s "explanation_status" "Vérifié|Publié" data/contributions.csv | \
 xsv select $headers > data/contributionsVerifiees.csv
 
 echo "Filtre des sigles sans explication..."
