@@ -150,7 +150,7 @@ export default {
       loading: false,
       search: "",
       resource: {
-        url: "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200623-140224/acronymes.csv"
+        url: process.env.VUE_APP_RESOURCEURL
       },
       showRowId: false,
       columns: [],
