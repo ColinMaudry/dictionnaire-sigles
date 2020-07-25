@@ -6,6 +6,10 @@ See https://dicosigles.fr
 
 ## Notes de version
 
+#### 1.1.1 (25/07/2020)
+
+- l'app ne gérait pas bien les colonnes supplémentaires (`explanation`, etc.)
+
 ### 1.1.0 (25/07/2020)
 
 - scripts d'aggrégation et de publication
