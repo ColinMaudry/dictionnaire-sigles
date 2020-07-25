@@ -12,9 +12,11 @@ git commit -m "Update data"
 
 api="https://www.data.gouv.fr/api/1"
 
-curl -sL "$api/datasets/5ee0d624d915e528468166c6/resources/${resource_sigle_id}/upload/" -F "file=@data/sigles.csv" -H "X-API-KEY: $datagouvfr_API_key" > response.json
+# Pour l'instant l'app ne gère pas les colonnes supplémentaires
+xsv select "term,definition,source,url_source" data/sigles.csv > temp.csv
+mv temp.csv data/sigles.csv
 
-echo ""
+curl -sL "$api/datasets/5ee0d624d915e528468166c6/resources/${resource_sigle_id}/upload/" -F "file=@data/sigles.csv" -H "X-API-KEY: $datagouvfr_API_key" > response.json
 
 jq .success response.json
 
