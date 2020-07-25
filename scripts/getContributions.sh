@@ -27,11 +27,21 @@ echo "Filtre des sigles sans explication..."
 
 echo $headersDev > data/contributionsTemp.csv
 
+# Sigles sans explication
 grep -e ",$" data/contributions.csv >> data/contributionsTemp.csv
 
-xsv select $headers data/contributionsTemp.csv | \
+# Sigles dont l'explication n'a pas été vérifiée
+xsv search -s "explanation_status" "À vérifier" data/contributions.csv | \
+xsv select "!explanation" | \
+xsv select "!source_explanation" | \
+xsv select "!url_source_explanation" | \
+tail -n +2 >> data/contributionsTemp.csv
+
+xsv fixlengths data/contributionsTemp.csv |
+xsv select $headers | \
 tail -n +2 >> data/contributionsVerifiees.csv
 
+rm data/contributionsTemp.csv
 # echo "term,definition,source,url_source,key" > $newDict
 #
 # while IFS=, read -r term definition,source,url_source,key
