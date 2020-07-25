@@ -1,6 +1,18 @@
 # Dictionnaire des sigles
 
+> Version 1.1.0
+
 See https://dicosigles.fr
+
+## Notes de version
+
+### 1.1.0 (25/07/2020)
+
+- scripts d'aggrégation et de publication
+
+### 1.0.0 (12/07/2020)
+
+- Première version, sans scripts d'aggrégation
 
 ## Project setup
 ```
