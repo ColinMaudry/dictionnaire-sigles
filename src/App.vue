@@ -12,7 +12,7 @@
           autofocus="autofocus"
           >
       </div>
-      <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les 4 320 que compte ce dictionnaire</p>
+      <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les 4 372 que compte ce dictionnaire</p>
       <table id="results" v-show="rows[0] && !loading && search">
         <colgroup>
           <col style=""/>
