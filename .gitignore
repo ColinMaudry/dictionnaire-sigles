@@ -1,6 +1,10 @@
 .DS_Store
 node_modules
+scripts/config.sh
 /dist
+
+data
+!data/sigles.csv
 
 # local env files
 .env.local
