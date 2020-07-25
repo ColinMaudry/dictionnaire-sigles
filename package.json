@@ -1,7 +1,7 @@
 {
   "name": "dictionnaire-acronymes-web",
   "config": {
-    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200725-152215/sigles.csv"
+    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200725-155638/sigles.csv"
   },
   "version": "0.1.0",
   "scripts": {
