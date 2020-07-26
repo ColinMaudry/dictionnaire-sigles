@@ -1,7 +1,8 @@
 {
-  "name": "dictionnaire-acronymes-web",
+  "name": "dictionnaire-sigles-web",
   "config": {
-    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200725-194103/sigles.csv"
+    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200725-194103/sigles.csv",
+    "nbTerms": 4373
   },
   "version": "0.1.0",
   "scripts": {
@@ -9,6 +10,8 @@
     "build": "vue-cli-service build --modern",
     "lint": "vue-cli-service lint"
   },
+  "repository": "https://github.com/ColinMaudry/dictionnaire-sigles.git",
+  "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
