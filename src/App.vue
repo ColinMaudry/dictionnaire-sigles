@@ -12,7 +12,7 @@
           autofocus="autofocus"
           >
       </div>
-      <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les 4 372 que compte ce dictionnaire</p>
+      <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les {{ nbTerms }} que compte ce dictionnaire</p>
       <table id="results" v-show="rows[0] && !loading && search">
         <colgroup>
           <col style=""/>
@@ -34,7 +34,7 @@
       </table>
       <p v-show="!loading && !rows[0] && search !== ''">Le dictionnaire ne contient pas de sigle contenant le texte <strong>{{ search }}</strong>.</p>
       <div v-show="loading">
-       <p>Chargement...</p> 
+       <p>Chargement...</p>
     </div>
 
   <div v-show="!rows[0]" id="about">
@@ -58,7 +58,7 @@
 
     <p>Si vous souhaitez ajouter ou corriger un sigle, ça se passe <a href="https://docs.google.com/spreadsheets/d/1kEJzE-8nCBZakKWptfrc5HhuctOEnMYy8AgxGz6dNW4/edit">par ici</a> (tableur Google, pas besoin d'un compte).</p>
 
-    <p>Si vous souhaitez ajouter une épaisse liste de sigles à ce dictionnaire et que vous l'avez sous forme de fichier, merci de <a href="#contact">me contacter</a>. Il doit s'agir de sigles utilisés par l'administration française ou utilisés dans la loi française et non présents dans ce dictionnaire.</p>
+    <p>Si vous souhaitez ajouter une épaisse liste de sigles à ce dictionnaire et que vous l'avez sous forme de fichier, merci de <a href="#contact">me contacter</a>. Il doit s'agir de sigles utilisés par l'administration française ou utilisés dans la loi française.</p>
     <p>Souvent, la limite à ne pas franchir est celle du vocabulaire technique ou scientifique, même s'il y a des exceptions pour les termes les plus employés.</p>
 
     <p>Merci de privilégier les formats structurés, par ordre de préférence :</p>
@@ -149,6 +149,7 @@ export default {
       perPage: 100,
       loading: false,
       search: "",
+      nbTerms: process.env.VUE_APP_NBTERMS,
       resource: {
         url: process.env.VUE_APP_RESOURCEURL
       },
