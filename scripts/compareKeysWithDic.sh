@@ -37,7 +37,7 @@ do
 
         if [[ $search -lt 2 ]]
         then
-            echo ${term},${definition},${key} >> $file.keys.csv
+            echo ${term},${definition} >> $file.keys.csv
         fi
     fi
 done < $file
