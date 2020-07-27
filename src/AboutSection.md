@@ -44,6 +44,7 @@ Merci de privilégier les formats structurés, par ordre de préférence :
 *   [Acronymes administratifs](https://www.keratocone.net/acronymes.html), par l’association Keratocone
 *   [Lexique des abréviations de la Fonction Publique](https://concours-fonction-publique.publidia.fr/guide-fonction-publique/infos-utiles/lexique-fonction-publique), par Publidia
 *   [Glossaire des sigles et acronymes](http://www.ac-grenoble.fr/college/poisy/orientation/orientation-sigles-et-acronymes/), par le collège de Poisy (académie de Grenoble), à partir d’un manuel de l’Onisep
+*   [Sigles de la gendarmerie et de la police nationale](https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv) collectés par [Denis Merigoux](https://merigoux.ovh)
 *   Sources indiquées par les contributeurs et contributrices de ce dictionnaire
 
 ## Contact
