@@ -1,8 +1,5 @@
 {
-  "name": "dictionnaire-acronymes-web",
-  "config": {
-    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200725-194103/sigles.csv"
-  },
+  "name": "dictionnaire-sigles-web",
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -21,7 +18,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "markdown-it": "^11.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "ware-loader": "^0.2.4"
   },
   "eslintConfig": {
     "root": true,
@@ -41,5 +40,11 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "config": {
+    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200727-170827/sigles.csv",
+    "nbTerms": 5039
+  },
+  "license": "MIT",
+  "repository": "https://github.com/ColinMaudry/dictionnaire-sigles.git"
 }

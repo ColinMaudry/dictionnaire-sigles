@@ -22,9 +22,15 @@ jq .success response.json
 
 url=`jq -r .url response.json`
 
-# Mise à jour de l'URL de la ressource dans l'app
-jq --arg url "$url" '.config.resourceUrl |= $url' package.json > temp
+# Mise à jour de l'URL de la ressource et du nombre de sigles dans l'app
+nb=`xsv count data/sigles.csv`
+echo ""
+echo "$nb sigles"
+
+jq --arg url "$url" --arg nb $nb '.config.resourceUrl |= $url | .config.nbTerms |= ($nb|tonumber)' package.json > temp
 mv temp package.json
+
+
 
 git add package.json
 git commit -m "New resource URL"
