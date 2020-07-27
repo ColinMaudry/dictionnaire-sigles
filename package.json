@@ -1,32 +1,28 @@
 {
   "name": "dictionnaire-sigles-web",
-  "config": {
-    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200725-194103/sigles.csv",
-    "nbTerms": 4373
-  },
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern",
     "lint": "vue-cli-service lint"
   },
-  "repository": "https://github.com/ColinMaudry/dictionnaire-sigles.git",
-  "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.5",
+    "register-service-worker": "^1.7.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-pwa": "^4.4.6",
     "@vue/cli-plugin-router": "^4.4.5",
     "@vue/cli-service": "~4.4.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "markdown-it": "^11.0.0",
-    "ware-loader": "^0.2.4",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "ware-loader": "^0.2.4"
   },
   "eslintConfig": {
     "root": true,
@@ -46,5 +42,11 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "config": {
+    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200725-194103/sigles.csv",
+    "nbTerms": 4373
+  },
+  "license": "MIT",
+  "repository": "https://github.com/ColinMaudry/dictionnaire-sigles.git"
 }
