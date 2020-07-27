@@ -42,8 +42,8 @@
     "not dead"
   ],
   "config": {
-    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200727-190529/sigles.csv",
-    "nbTerms": 5088
+    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200727-191731/sigles.csv",
+    "nbTerms": 5089
   },
   "license": "MIT",
   "repository": "https://github.com/ColinMaudry/dictionnaire-sigles.git"
