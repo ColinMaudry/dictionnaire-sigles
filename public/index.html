@@ -41,6 +41,10 @@ input#search {
   border:none;
   color:#eee;
   background-color:transparent;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  position: relative;
 }
 #app2 {
 text-align:center;
@@ -75,7 +79,11 @@ div#search-frame {
   border: 3px solid orange;
   padding: 6px;
   margin: 30px auto;
-  width: 300px;
+  width: 250px;
+  display: flex;
+  position: relative;
+  flex-wrap:wrap;
+  align-items: stretch;
 }
 /* For small screens */
 @media (max-width: 576px) {
