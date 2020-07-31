@@ -1,12 +1,16 @@
 # Dictionnaire des sigles
 
-> Version 1.2.0
+> Version 1.3.0
 
-See https://dicosigles.fr
+==> https://dicosigles.fr
 
 ## Notes de version
 
-### 1.2.0
+### 1.3.0 (31/07/2020)
+
+- Ajout d'un bouton pour copier un lien court vers la recherche dans le presse-papier
+
+### 1.2.0 (28/07/2020)
 
 - script pour ajouter des sigles en masse avec dédoublonnage par clé ([#20](https://github.com/ColinMaudry/dictionnaire-sigles/issues/20))
 - ajout de 688 sigles liés à la gendarmerie et à la police nationale (Merci [Denis Merigoux](https://merigoux.ovh) !)
