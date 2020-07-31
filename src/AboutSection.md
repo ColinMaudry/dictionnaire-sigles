@@ -71,3 +71,5 @@ J’utilise pour cela [Matomo](https://matomo.org/), un outil [libre](https://ma
 Le dictionnaire des sigles de l’administration française a été compilé et édité par Colin Maudry, inscrit au répertoire SIRENE sous le numéro 812 231 132, et dont le siège social est situé au 7 avenue Aristide Briand, 35000 Rennes.
 
 Le dictionnaire des sigles de l’administration française est hébergé par la société Github, propriété de Microsoft Corporation.
+
+Icône presse-papier dessinée par [Pixel perfect](https://icon54.com/) de [Flaticon](http://www.flaticon.com).

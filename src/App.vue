@@ -11,6 +11,7 @@
           type="search"
           autofocus="autofocus"
           >
+          <copy-button v-bind:search="search" v-show="hasClipboardApi && search !== ''"/>
       </div>
       <p v-show="!rows[0] && search === ''">Recherchez la signification d'un sigle parmi les {{ nbTerms }} que compte ce dictionnaire</p>
       <table id="results" v-show="rows[0] && !loading && search">
@@ -37,7 +38,6 @@
         <p>Chargement...</p>
       </div>
       <about-section id="about" v-show="!rows[0]"/>
-
   </div>
 </template>
 
@@ -47,15 +47,18 @@
 
 <script>
 import AboutSection from "./AboutSection.md";
+import CopyButton from "./CopyButton.vue";
 export default {
   components: {
-    AboutSection
+    AboutSection,
+    CopyButton
   },
   data () {
     return {
       endpoint: null,
       total: 0,
       error: null,
+      hasClipboardApi:false,
       currentPage: 1,
       perPage: 100,
       loading: false,
@@ -75,6 +78,11 @@ export default {
     if (search !== "#" && search[0] !== "#") {
       this.search=search;
       this.makeSearch();
+    }
+    if (navigator.clipboard.writeText) {
+      this.hasClipboardApi=true;
+    } else {
+      console.log("Votre navigateur ne supporte pas la méthode writeText de l'API presse-papier.")
     }
   },
   computed: {},
