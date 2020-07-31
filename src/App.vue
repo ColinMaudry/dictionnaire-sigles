@@ -46,7 +46,7 @@
 </style>
 
 <script>
-import AboutSection from "./AboutSection.md";
+import AboutSection from "./AboutSection.vue";
 import CopyButton from "./CopyButton.vue";
 export default {
   components: {

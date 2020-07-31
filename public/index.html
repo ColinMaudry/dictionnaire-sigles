@@ -17,7 +17,6 @@ html {
   font-size: 20px;
   background-color:#242424;
   color:#eee;
-  padding:6px;
 }
 
 body {
@@ -58,6 +57,10 @@ text-align:center;
   border-top: solid #444 2px;
 }
 
+#about li {
+    margin-bottom: 8px;
+}
+
 table#results {
   border-collapse:collapse;
   text-align:left;
@@ -86,20 +89,26 @@ div#search-frame {
   align-items: stretch;
 }
 /* For small screens */
-@media (max-width: 576px) {
+@media (max-width: 750px) {
 
   #search {
-    display:inline-block;
-    margin: 20px auto;
     font-size:16px;
   }
 
-  html {
+  body {
     font-size: 16px;
+    padding: 0;
   }
 
   table#results {
     width: 99%;
+  }
+  #about {
+    width: 99%;
+    font-size:16px;
+    margin: 50px auto 0 auto;
+    text-align:left;
+    border-top: solid #444 2px      ;
   }
 }
 }

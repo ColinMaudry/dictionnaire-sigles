@@ -1,14 +1,20 @@
 # Dictionnaire des sigles
 
-> Version 1.3.0
+> Version 1.3.1
 
 ==> https://dicosigles.fr
 
 ## Notes de version
 
+### 1.3.1 (31/07/2020)
+
+- la largeur de la documentation s'adapte aux petits écrans
+- ajout d'une marge entre les `<li>` des sources
+- désactivation de l'import de markdown brut pour la documentation (les éléments HTML n'étaient pas interprétés)
+
 ### 1.3.0 (31/07/2020)
 
-- Ajout d'un bouton pour copier un lien court vers la recherche dans le presse-papier
+- ajout d'un bouton pour copier un lien court vers la recherche dans le presse-papier
 
 ### 1.2.0 (28/07/2020)
 
