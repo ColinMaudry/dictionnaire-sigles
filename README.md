@@ -1,10 +1,14 @@
 # Dictionnaire des sigles
 
-> Version 1.3.1
+> Version 1.3.2
 
 ==> https://dicosigles.fr
 
 ## Notes de version
+
+### 1.3.2 (01/09/2020)
+
+- bug dans le script de fusion des sigles
 
 ### 1.3.1 (31/07/2020)
 
