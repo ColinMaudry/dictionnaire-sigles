@@ -1,8 +1,8 @@
 #!/bin/bash
 
-contributions=data/contributionsVerifiees.csv
-slashtrad=data/slashtrad.csv
-sigles=data/sigles.csv
+contributions="data/contributionsVerifiees.csv"
+slashtrad="data/slashtrad.csv"
+sigles="data/sigles.csv"
 
 ./scripts/getContributions.sh &
 ./scripts/getSlashtrad.sh
@@ -34,5 +34,10 @@ then
     echo "$nb sigles après le merge"
 else
     echo "Les en-têtes de $slashtrad et $contributions ne correspondent pas."
+    echo ""
+    echo "slashtrad :"
+    head -n 1 $slashtrad
+    echo "contributions :"
+    head -n 1 $contributions
     exit 1
 fi
