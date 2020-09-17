@@ -40,7 +40,7 @@
     "not dead"
   ],
   "config": {
-    "resourceUrl": "",
+    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20200917-134511/sigles.csv",
     "nbTerms": 5089
   },
   "license": "MIT",
