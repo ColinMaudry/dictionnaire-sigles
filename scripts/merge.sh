@@ -19,9 +19,7 @@ then
     cp $slashtrad $sigles
     tail -n +2 $contributions >> $sigles
 
-    # Tri par sigle
-    xsv sort -s "term" $sigles > $sigles.temp
-    mv $sigles.temp $sigles
+   
 
     for file in `ls data/*.csv`
     do
