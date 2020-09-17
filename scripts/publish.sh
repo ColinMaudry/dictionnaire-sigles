@@ -38,11 +38,14 @@ echo "$nb sigles"
 
 jq --arg url "$url" --arg nb $nb '.config.resourceUrl |= $url | .config.nbTerms |= ($nb|tonumber)' package.json > temp
 mv temp package.json
-
 git add package.json
-git commit -m "New resource URL"
 
-# Rétablissement de la colonne supplémentaire
+# Ajout du nombre d'entrées dans le <title>
+sed -i "s/[0-9]* entrées/$nb entrées/" public/index.html
+git add public/index.html
+
+git commit -m "Nombre d'entrées actualisé ($nb) et ressource d'URL mise à jour"
+
 mv $sigles.ori $sigles
 
 echo ""
