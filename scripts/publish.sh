@@ -7,8 +7,6 @@ sigles=data/sigles.csv
 if [[ "$1" ]]
 then
   message="$1"
-  git add $sigles
-  git commit -m "$message"
   api="https://www.data.gouv.fr/api/1"
 
   # Pour l'instant l'app ne gère pas les colonnes supplémentaires
@@ -18,9 +16,19 @@ then
 
   curl -sL "$api/datasets/5ee0d624d915e528468166c6/resources/${resource_sigle_id}/upload/" -F "file=@$sigles" -H "X-API-KEY: $datagouvfr_API_key" > response.json
 
+
   jq .success response.json
 
   url=`jq -r .url response.json`
+  jq --arg url "$url" '.config.resourceUrl |= $url' package.json > temp
+  mv temp package.json
+  git add package.json
+
+  rm -f response.json
+
+  mv $sigles.ori $sigles
+  git add $sigles
+  git commit -m "$message"
 
 fi
 
@@ -29,7 +37,7 @@ nb=`xsv count data/sigles.csv`
 echo ""
 echo "$nb sigles"
 
-jq --arg url "$url" --arg nb $nb '.config.resourceUrl |= $url | .config.nbTerms |= ($nb|tonumber)' package.json > temp
+jq --arg nb $nb '.config.nbTerms |= ($nb|tonumber)' package.json > temp
 mv temp package.json
 git add package.json
 
@@ -37,14 +45,8 @@ git add package.json
 sed -i "s/[0-9]* entrées/$nb entrées/" public/index.html
 git add public/index.html
 
-git commit -m "Nombre d'entrées actualisé ($nb) et ressource d'URL mise à jour"
-
-if [[ -f $sigles.ori ]]
-then
-  mv $sigles.ori $sigles
-fi
+git commit -m "Nombre d'entrées actualisé ($nb) mis à jour"
 
 echo ""
 echo "Publication complète, n'oublie pas de marquer les contributions comme publiées."
 
-rm -f response.json
