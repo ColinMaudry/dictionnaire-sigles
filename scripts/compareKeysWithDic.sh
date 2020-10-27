@@ -10,36 +10,46 @@ makeKey() {
         tr -d "[:punct:][:space:]’"
 }
 
-if [[ ! `head -n 1 $file` == "term,definition" ]]
+headers="id,term,definition,explanation"
+
+if [[ ! `head -n 1 $file` == $headers ]]
 then
-    echo "Les en-têtes doivent être term,definition"
+    echo "Les en-têtes doivent être $headers.
+Seuls term et definition doivent être remplis."
     exit 1
 fi
 
 xsv select "term,definition" data/sigles.csv | tail -n +2 > temp.csv
 
-echo "term,definition,key" > withKeys.csv
-
 while IFS=, read -r term definition
 do
     key=`makeKey "$term" "$definition"`
-    echo ${term},${definition},${key} >> withKeys.csv
+    echo ${key} >> dicKeys.csv
 done < temp.csv
+rm -f temp.csv
+echo $headers > $file.unique.csv
 
-rm -f temp.csv $file.keys.csv
+duplicates=0
 
-while IFS=, read -r term definition
+while IFS=, read -r id term definition explanation
 do
     if [[ ! $definition == "definition" ]]
     then
         key=`makeKey "$term" "$definition"`
-        search=`xsv search -s key "^$key\$" withKeys.csv | wc -l`
-
-        if [[ $search -lt 2 ]]
-        then
-            echo ${term},${definition} >> $file.keys.csv
-        fi
+        for k in `cat dicKeys.csv`
+        do
+            if [[ $k == $key ]]
+            then
+                echo "$term         $definition"
+                ((duplicates++))
+                break;
+            else
+                echo ${id},${term},${definition},${explanation} >> $file.unique.csv
+            fi
+        done
     fi
 done < $file
 
-rm withKeys.csv
+echo "$duplicates doublons détectés et supprimés dans $file.unique.csv par rapport à $file."
+
+rm dicKeys.csv
