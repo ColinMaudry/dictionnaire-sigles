@@ -14,18 +14,27 @@ echo "$nb sigles avant le merge"
 echo "++++++++++++++"
 echo ""
 
-if [[ `head -n 1 $slashtrad` == `head -n 1 $contributions` ]]
+if [[ `head -n 1 $slashtrad` = `head -n 1 $contributions` ]]
 then
+
+    echo "Fusion de slashtrad et contributions dans sigles.csv..."
+
     cp $slashtrad $sigles
     tail -n +2 $contributions >> $sigles
 
-   
+    # Ajout des clés dans $sigles
+
+    scripts/addKeys.sh $sigles
+
+    echo ""
+    echo "Nombre d'entrées par fichier dans data/ :"
 
     for file in `ls data/*.csv`
     do
         nb=`xsv count $file`
         echo "$nb sigles dans $file"
     done
+
     echo ""
     echo "++++++++++++++"
     nb=`xsv count $sigles`

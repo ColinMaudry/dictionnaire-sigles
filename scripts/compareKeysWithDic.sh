@@ -1,14 +1,8 @@
 #!/bin/bash
 
-file=$1
+source scripts/makeKey.sh
 
-makeKey() {
-    echo "${1}${2}" |
-    # Minuscule
-        sed -e 's/\(.*\)/\L\1/' |
-    # Suppression des espaces et de la ponctuation
-        tr -d "[:punct:][:space:]’"
-}
+file=$1
 
 headers="id,term,definition,explanation"
 
@@ -19,14 +13,8 @@ Seuls term et definition doivent être remplis."
     exit 1
 fi
 
-xsv select "term,definition" data/sigles.csv | tail -n +2 > temp.csv
+xsv select key data/sigles.csv | tail -n +2 > dicKeys.csv
 
-while IFS=, read -r term definition
-do
-    key=`makeKey "$term" "$definition"`
-    echo ${key} >> dicKeys.csv
-done < temp.csv
-rm -f temp.csv
 echo $headers > $file.unique.csv
 
 duplicates=0
@@ -40,7 +28,7 @@ do
         do
             if [[ $k == $key ]]
             then
-                echo "$term         $definition"
+                echo "$term                 $definition"
                 ((duplicates++))
                 break;
             else
