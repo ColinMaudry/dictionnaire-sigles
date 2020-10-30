@@ -32,7 +32,7 @@ id,term,definition,source,url_source,explanation,source_explanation,url_source_e
 36,ACCA,Associations communales de chasse agréées,Sénat,https://www.senat.fr/histoire/sigles.html,,,,accaassociationscommunalesdechasseagréées
 5662,ACCIMADA,ACCIdent de transport de MAtières DAngereuses,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,accimadaaccidentdetransportdematièresdangereuses
 5663,ACCITRAPU,ACCIdent de TRAnsport PUblic de personnes,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,accitrapuaccidentdetransportpublicdepersonnes
-38,ACCORD,"Application coordonée de comptabilisation, d’ordonnancement et de reglement de la dépense de l’Etat.",CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,,,,accordapplicationcoordonéedecomptabilisation
+38,ACCORD,"Application coordonée de comptabilisation, d’ordonnancement et de reglement de la dépense de l’État.",CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,,,,accordapplicationcoordonéedecomptabilisation
 5664,ACCR,Accident Corporel de la Circulation Routière,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,accraccidentcorporeldelacirculationroutière
 39,ACCRE,Aide aux chômeurs créateurs ou repreneurs d'entreprise,Sénat,https://www.senat.fr/histoire/sigles.html,,,,accreaideauxchômeurscréateursourepreneursdentreprise
 40,ACDN,Action des citoyens pour le désarmement nucléaire.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,acdnactiondescitoyenspourledésarmementnucléaire
@@ -127,7 +127,7 @@ c26,ADEME,Agence de la transition écologique,ADEME,https://www.ademe.fr/,"À sa
 169,AEEN,Agence européenne pour l'énergie nucléaire,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,aeenagenceeuropéennepourlénergienucléaire
 170,AEF,Annuaire des entreprises de France.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,aefannuairedesentreprisesdefrance
 172,AEFE,Agence pour l'enseignement français à l'étranger,Sénat,https://www.senat.fr/histoire/sigles.html,,,,aefeagencepourlenseignementfrançaisàlétranger
-173,AEG,Altération de l’Etat Général,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,aegaltérationdeletatgénéral
+173,AEG,Altération de l’État Général,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,aegaltérationdelétatgénéral
 5667,AEG,Administration-Économie-Gestion,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,aegadministrationéconomiegestion
 174,AEIM,Adultes Et Enfants Inadaptés Mentaux,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,aeimadultesetenfantsinadaptésmentaux
 175,AELE,Association européenne de libre échange,Sénat,https://www.senat.fr/histoire/sigles.html,,,,aeleassociationeuropéennedelibreéchange
@@ -239,7 +239,7 @@ c61,AGEPI,Aide à la garde d'enfants pour les parents isolés,Pôle emploi,https
 317,AIE,Agence internationale de l'énergie.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,aieagenceinternationaledelénergie
 313,AIEA,Agence internationale de l'énergie atomique,Sénat,https://www.senat.fr/histoire/sigles.html,,,,aieaagenceinternationaledelénergieatomique
 320,AIF,Aide Individuelle à La Formation,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,aifaideindividuelleàlaformation
-318,AIFE,Agence pour l'Informatique Financière de l'Etat,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,aifeagencepourlinformatiquefinancièredeletat
+318,AIFE,Agence pour l'Informatique Financière de l'État,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,aifeagencepourlinformatiquefinancièredelétat
 321,AII,Agence de l'innovation industrielle,Sénat,https://www.senat.fr/histoire/sigles.html,,,,aiiagencedelinnovationindustrielle
 325,AIL,Accord d’Initiative Locale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ailaccorddinitiativelocale
 326,AIM,Association Internationale De La Mutualité,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,aimassociationinternationaledelamutualité
@@ -269,7 +269,7 @@ c61,AGEPI,Aide à la garde d'enfants pour les parents isolés,Pôle emploi,https
 5675,AMCR,Accident Mortel de la Circulation Routière,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,amcraccidentmorteldelacirculationroutière
 352,AMD,Aide Médicale à Domicile,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,amdaidemédicaleàdomicile
 345,AME,Accords multilatéraux sur l'environnement.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,ameaccordsmultilatérauxsurlenvironnement
-346,AME,Aide médicale de l'Etat,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ameaidemédicaledeletat
+346,AME,Aide médicale de l'État,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ameaidemédicaledelétat
 353,AME,Aide médicale état,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ameaidemédicaleétat
 5676,AME,Arrêté Ministériel d'Expulsion,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,amearrêtéministérieldexpulsion
 355,AMELI,Assurance Maladie en ligne,Keratocone,https://www.keratocone.net/acronymes.html,,,,ameliassurancemaladieenligne
@@ -341,7 +341,7 @@ c7,ANFR,Agence nationale des fréquences,ANFR,https://www.anfr.fr/accueil/,"L’
 438,ANN,Agence Nationale du Numérique,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,annagencenationaledunumérique
 439,ANPAA,Association Nationale De Prévention En Alcoologie Et Addictologie,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,anpaaassociationnationaledepréventionenalcoologieetaddictologie
 440,ANPASE,Association nationale des personnels et acteurs de l’action sociale en faveur de la famille,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,anpaseassociationnationaledespersonnelsetacteursdelactionsocialeenfaveurdelafamille
-441,ANPDE,Association Nationale des Puericultrices Diplomées d’Etat,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,anpdeassociationnationaledespuericultricesdiploméesdetat
+441,ANPDE,Association Nationale des Puericultrices Diplomées d’État,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,anpdeassociationnationaledespuericultricesdiploméesdétat
 433,ANPE,Agence nationale pour l'emploi,Sénat,https://www.senat.fr/histoire/sigles.html,,,,anpeagencenationalepourlemploi
 446,ANPEDA,Association nationale des parents d’enfants déficients auditifs,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,anpedaassociationnationaledesparentsdenfantsdéficientsauditifs
 444,ANPEEC,Agence nationale pour l’information des locataires,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,anpeecagencenationalepourlinformationdeslocataires
@@ -624,9 +624,9 @@ c8,Anses,"Agence nationale de sécurité sanitaire, de l’alimentation, de l’
 760,BE,Bureau d'étude.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,bebureaudétude
 5711,BEA,Bureau d'Enquêtes et d'Analyses ou Bail Emphytéotique Administratif,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,beabureaudenquêtesetdanalysesoubailemphytéotiqueadministratif
 761,BEAC,Banque des États de l'Afrique centrale,Sénat,https://www.senat.fr/histoire/sigles.html,,,,beacbanquedesétatsdelafriquecentrale
-755,BEATEP,Brevet d’Etat d’Animateur Technicien de l’Education Populaire et de la Jeunesse,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,beatepbrevetdetatdanimateurtechniciendeleducationpopulaireetdelajeunesse
+755,BEATEP,Brevet d’État d’Animateur Technicien de l’Education Populaire et de la Jeunesse,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,beatepbrevetdétatdanimateurtechniciendeleducationpopulaireetdelajeunesse
 764,BEE,"Bureau européen, de l'environnement.",M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,beebureaueuropéen
-765,BEES,Brevet d’Etat d’Educateur Sportif,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,beesbrevetdetatdeducateursportif
+765,BEES,Brevet d’État d’Educateur Sportif,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,beesbrevetdétatdeducateursportif
 5712,BEES,Brevet d’État d'Educateur Sportif,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,beesbrevetdétatdeducateursportif
 5713,BEGES,Bilan des Émissions de Gaz à Effet de Serre,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,begesbilandesémissionsdegazàeffetdeserre
 766,BEH,Bulletin Epidémiologique Hebdomadaire,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,behbulletinepidémiologiquehebdomadaire
@@ -1025,7 +1025,7 @@ c43,CDEFI,Conférence des directeurs des écoles françaises d'ingénieurs,CDEFI
 1192,CDV,Communauté de villes,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,cdvcommunautédevilles
 1183,CE,Comité d’Entreprise,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cecomitédentreprise
 1193,CE,Communauté Européenne,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,cecommunautéeuropéenne
-1196,CE,Conseil d'Etat,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,ceconseildetat
+1196,CE,Conseil d'État,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,ceconseildétat
 1197,CEA,Commissariat à l'énergie atomique,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ceacommissariatàlénergieatomique
 5786,CEA,Conduite en État Alcoolique,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,ceaconduiteenétatalcoolique
 1202,CEAS,Centre d’études et d’action sociale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ceascentredétudesetdactionsociale
@@ -1405,7 +1405,7 @@ c30,CIPDR,Comité interministériel de prévention de la délinquance et de la r
 1615,CMP,Centre médico-psychologique,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cmpcentremédicopsychologique
 1624,CMP,Code des marchés publics,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,cmpcodedesmarchéspublics
 1626,CMP,Consultation médico-psychologique,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,cmpconsultationmédicopsychologique
-1627,CMPE,Commission des Marchés Publics de l'Etat,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,cmpecommissiondesmarchéspublicsdeletat
+1627,CMPE,Commission des Marchés Publics de l'État,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,cmpecommissiondesmarchéspublicsdelétat
 1631,CMPI,Centre Médico-psychologique Infantile,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cmpicentremédicopsychologiqueinfantile
 1632,CMPP,Centre Médico-Psycho-Pédagogique,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cmppcentremédicopsychopédagogique
 1633,CMPR,Centre de Médecine Physique et de Réadaptation,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cmprcentredemédecinephysiqueetderéadaptation
@@ -1674,7 +1674,7 @@ c56,COMCYBER,Commandement des forces de cyberdéfense des armées françaises,CO
 1944,CPE,Contrat première embauche,Sénat,https://www.senat.fr/histoire/sigles.html,,,,cpecontratpremièreembauche
 1952,CPEF,Centre de Planification et d’Education Familiale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cpefcentredeplanificationetdeducationfamiliale
 1950,CPER,Contrat de projet État Région.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,cpercontratdeprojetétatrégion
-1951,CPER,Contrat Plan Etat Région,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cpercontratplanetatrégion
+1951,CPER,Contrat Plan État Région,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cpercontratplanétatrégion
 1955,CPF,Compte personnel de formation,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,cpfcomptepersonneldeformation
 1956,CPFS,Centre De Placement Familial Spécialisé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cpfscentredeplacementfamilialspécialisé
 1957,CPG,Contrat Pluriannuels De Gestion,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,cpgcontratpluriannuelsdegestion
@@ -1945,7 +1945,7 @@ c28,DAASEN,Directeur académique adjoint des services de l'Éducation Nationale,
 2219,DACG,Direction des affaires criminelles et des grâces,Ministère de la Justice,http://www.justice.gouv.fr/art_pix/Stat_Annuaire_ministere-justice_sigles.pdf,,,,dacgdirectiondesaffairescriminellesetdesgrâces
 2220,DACS,Direction des affaires civiles et du sceau,Ministère de la Justice,http://www.justice.gouv.fr/art_pix/Stat_Annuaire_ministere-justice_sigles.pdf,,,,dacsdirectiondesaffairescivilesetdusceau
 2221,DADS,Déclaration annuelle de données sociales,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,dadsdéclarationannuellededonnéessociales
-2218,DAE,Direction des Achats de l'Etat,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,Ex SAE,,,daedirectiondesachatsdeletat
+2218,DAE,Direction des Achats de l'État,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,Ex SAE,,,daedirectiondesachatsdelétat
 5894,DAED,Demande d'Autorisation d'Engagement de Dépense,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,daeddemandedautorisationdengagementdedépense
 2222,DAEI,Délégation aux affaires européennes et internationales,CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,ministère santé et affaires sociales,,,daeidélégationauxaffaireseuropéennesetinternationales
 2223,DAEI,Demande d'autorisation d'exploiter,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,daeidemandedautorisationdexploiter
@@ -2030,7 +2030,7 @@ c5,DCSP,Direction centrale de la sécurité publique,DCSP,https://www.police-nat
 2314,DDE,Direction départementale de l'équipement,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ddedirectiondépartementaledeléquipement
 2320,DDEA,Direction Départementale de l'Equipement et de l'Agriculture,Publidia,https://concours-fonction-publique.publidia.fr/guide-fonction-publique/infos-utiles/lexique-fonction-publique,,,,ddeadirectiondépartementaledelequipementetdelagriculture
 2322,DDEC,Dotation départementale d'équipement des collèges,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ddecdotationdépartementaledéquipementdescollèges
-2326,DDEEAS,Diplôme de Directeur d’Etablissement d’Education Adaptée ou Spécialisée Ce diplôme s’est substitué au DDES,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ddeeasdiplômededirecteurdetablissementdeducationadaptéeouspécialiséecediplômesestsubstituéauddes
+2326,DDEEAS,Diplôme de Directeur d’Établissement d’Education Adaptée ou Spécialisée Ce diplôme s’est substitué au DDES,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ddeeasdiplômededirecteurdétablissementdeducationadaptéeouspécialiséecediplômesestsubstituéauddes
 2327,DDEN,Délégué départemental de l'éducation nationale,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ddendéléguédépartementaldeléducationnationale
 2328,DDGEFP,Délégation générale à l’emploi et à la formation professionnelle,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ddgefpdélégationgénéraleàlemploietàlaformationprofessionnelle
 2329,DDISS,Direction Départementale des Interventions Sanitaires et Sociales,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ddissdirectiondépartementaledesinterventionssanitairesetsociales
@@ -2058,29 +2058,29 @@ c5,DCSP,Direction centrale de la sécurité publique,DCSP,https://www.police-nat
 2351,DEA,Direction de l'eau et de l'assainissement,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,deadirectiondeleauetdelassainissement
 2354,DEAF,Diplôme D’état Assistant Familial,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deafdiplômedétatassistantfamilial
 2355,DEAMP,Diplome d’État d’Aide Médico-Psychologique,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deampdiplomedétatdaidemédicopsychologique
-2356,DEAS,Diplôme d’Etat d’Assistant de Service Social,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deasdiplômedetatdassistantdeservicesocial
-2357,DEASS,Diplome d’Etat d’Assistant de Service Social,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deassdiplomedetatdassistantdeservicesocial
+2356,DEAS,Diplôme d’État d’Assistant de Service Social,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deasdiplômedétatdassistantdeservicesocial
+2357,DEASS,Diplome d’État d’Assistant de Service Social,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deassdiplomedétatdassistantdeservicesocial
 2358,DEAVS,Diplôme d’État D’auxiliaire De Vie Sociale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deavsdiplômedétatdauxiliairedeviesociale
 2359,DECESF,Diplôme d’État de conseiller en économie sociale et familiale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,decesfdiplômedétatdeconseillerenéconomiesocialeetfamiliale
 c1,DECP,Données essentielles de la commande publique,Etalab,https://www.data.gouv.fr/fr/datasets/5cd57bf68b4c4179299eb0e9/,"Depuis le 1er octobre 2018 et l'entrée en vigueur de l'arrêté du 14 avril 2017, tous les acheteurs pubilcs doivent publier leurs données d'attribution.",Direction des affaires juridiques de Bercy,https://www.economie.gouv.fr/daj/ouverture-des-donnees-commande-publique,decpdonnéesessentiellesdelacommandepublique
 2360,DECRIRE,Dispositif d’Exploitation et de Consultation des Résultats Inter-Régimes des Enveloppes,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,decriredispositifdexploitationetdeconsultationdesrésultatsinterrégimesdesenveloppes
-2361,DEDPAD,Diplôme d’Etat de Directeur de Projet d’Animation et de Développement,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,dedpaddiplômedetatdedirecteurdeprojetdanimationetdedéveloppement
+2361,DEDPAD,Diplôme d’État de Directeur de Projet d’Animation et de Développement,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,dedpaddiplômedétatdedirecteurdeprojetdanimationetdedéveloppement
 2362,DEEE,Déchets d’équipements électriques et électroniques,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,deeedéchetsdéquipementsélectriquesetélectroniques
-2363,DEEJE,Diplome d’Etat d’Educateur de Jeunes Enfants,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deejediplomedetatdeducateurdejeunesenfants
-2364,DEEP,Division des Etablissements d’Enseignement Privé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deepdivisiondesetablissementsdenseignementprivé
-2365,DEES,Diplome d’Etat d’Educateur Specialise,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deesdiplomedetatdeducateurspecialise
+2363,DEEJE,Diplome d’État d’Educateur de Jeunes Enfants,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deejediplomedétatdeducateurdejeunesenfants
+2364,DEEP,Division des Établissements d’Enseignement Privé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deepdivisiondesétablissementsdenseignementprivé
+2365,DEES,Diplome d’État d’Educateur Specialise,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deesdiplomedétatdeducateurspecialise
 2366,DEETS,Diplôme d’État d’éducateur technique spécialisé (voir aussi CAFETS),L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deetsdiplômedétatdéducateurtechniquespécialisévoiraussicafets
-2352,DEFA,Diplôme d’Etat aux Fonctions d’Animation,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,defadiplômedetatauxfonctionsdanimation
+2352,DEFA,Diplôme d’État aux Fonctions d’Animation,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,defadiplômedétatauxfonctionsdanimation
 2369,DEFI,Développement-Exportation-Formation-Image,Sénat,https://www.senat.fr/histoire/sigles.html,,,,defidéveloppementexportationformationimage
 5905,DEFI,Délinquance Économique et FInancière,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,defidélinquanceéconomiqueetfinancière
 2370,DEIS,Diplôme d’État D’ingénierie Sociale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,deisdiplômedétatdingénieriesociale
-2368,DEJEPS,"Diplôme d’Etat de la jeunesse, de l’éducation populaire et du sport",Collège de Poisy,http://www.ac-grenoble.fr/college/poisy/orientation/orientation-sigles-et-acronymes/,,,,dejepsdiplômedetatdelajeunesse
+2368,DEJEPS,"Diplôme d’État de la jeunesse, de l’éducation populaire et du sport",Collège de Poisy,http://www.ac-grenoble.fr/college/poisy/orientation/orientation-sigles-et-acronymes/,,,,dejepsdiplômedétatdelajeunesse
 2371,DELD,Demandeur d’emploi longue durée,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,delddemandeurdemploilonguedurée
 2375,DEME,Diplôme D’État De Moniteur Éducateur,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,demediplômedétatdemoniteuréducateur
 2376,DEP,Direction de l’Evaluation et de la Prospective,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,depdirectiondelevaluationetdelaprospective
 5906,DEPAFI,Direction de l'Évaluation de la Performance et des Affaires Financières et Immobilières,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,depafidirectiondelévaluationdelaperformanceetdesaffairesfinancièresetimmobilières
 2377,DEPE,Délégués des entreprises pour l'emploi,Sénat,https://www.senat.fr/histoire/sigles.html,,,,depedéléguésdesentreprisespourlemploi
-2378,DEPS,Diplôme d’Etat de Psychologue Scolaire,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,depsdiplômedetatdepsychologuescolaire
+2378,DEPS,Diplôme d’État de Psychologue Scolaire,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,depsdiplômedétatdepsychologuescolaire
 2379,DERF,Direction de l'espace rural et de la forêt,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,derfdirectiondelespaceruraletdelaforêt
 2380,DES,Département des études et des statistiques,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,desdépartementdesétudesetdesstatistiques
 2381,DESCO,Direction de l’enseignement scolaires,CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,,,,descodirectiondelenseignementscolaires
@@ -2388,7 +2388,7 @@ c50,DSPAP,Direction de la sécurité de proximité de l’agglomération parisie
 2722,EA,Enseignement agricole,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,eaenseignementagricole
 2723,EA,Entité Adjudicatrice,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,eaentitéadjudicatrice
 2727,EA,Entreprise Adaptée,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,eaentrepriseadaptée
-2728,EA,Etat annuel des certificats reçus,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,"certificats fiscaux et sociaux - Imprimé NOTI2 (Ex DC7), n'est plus délivré",,,eaetatannueldescertificatsreçus
+2728,EA,État annuel des certificats reçus,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,"certificats fiscaux et sociaux - Imprimé NOTI2 (Ex DC7), n'est plus délivré",,,eaétatannueldescertificatsreçus
 2729,EA,European Accreditation,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,eaeuropeanaccreditation
 2730,EAO,Enseignement assisté par ordinateur,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,eaoenseignementassistéparordinateur
 2732,EARL,Exploitation agricole à responsabilité limitée,Sénat,https://www.senat.fr/histoire/sigles.html,,,,earlexploitationagricoleàresponsabilitélimitée
@@ -2409,7 +2409,7 @@ c50,DSPAP,Direction de la sécurité de proximité de l’agglomération parisie
 2751,EDI,Echange de Données Informatisées,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,ediechangededonnéesinformatisées
 2752,EDL,Éléments de langage,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,edlélémentsdelangage
 5942,EDSR,Escadron Départemental de Sécurité Routière,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,edsrescadrondépartementaldesécuritéroutière
-2753,EEAP,Etablissements Pour Enfants Et Adolescents Polyhandicapés,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,eeapetablissementspourenfantsetadolescentspolyhandicapés
+2753,EEAP,Établissements Pour Enfants Et Adolescents Polyhandicapés,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,eeapétablissementspourenfantsetadolescentspolyhandicapés
 2754,EEE,Espace Economique Européen,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,eeeespaceeconomiqueeuropéen
 5943,EEMSM,Étude et Emploi des Moyens de Secours en Montagne,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,eemsmétudeetemploidesmoyensdesecoursenmontagne
 2755,EFAP,Ecole française des Attachés de Presse,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,efapecolefrançaisedesattachésdepresse
@@ -2420,13 +2420,13 @@ c50,DSPAP,Direction de la sécurité de proximité de l’agglomération parisie
 2759,EGESS,États Généraux De L’économie Sociale Et Solidaire,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,egessétatsgénérauxdeléconomiesocialeetsolidaire
 5946,EGI,Établissement Géographique Interarmées,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,egiétablissementgéographiqueinterarmées
 5947,EGM,Escadron de Gendarmerie Mobile,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,egmescadrondegendarmeriemobile
-2760,EGOS,Etats Généraux de l’Organisation de la Santé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,egosetatsgénérauxdelorganisationdelasanté
+2760,EGOS,États Généraux de l’Organisation de la Santé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,egosétatsgénérauxdelorganisationdelasanté
 2761,EGPA,Enseignement Général et Professionnel Adapté,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,egpaenseignementgénéraletprofessionneladapté
 2762,EH,Équivalent-habitant,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,ehéquivalenthabitant
 2763,EHESP,École des Hautes Études en Santé Publique,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ehespécoledeshautesétudesensantépublique
 2764,EHESS,Ecole des Hautes Etudes en Sciences Sociales,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ehessecoledeshautesetudesensciencessociales
 2765,EHPA,Établissement d’Hébergement pour Personnes Âgées,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ehpaétablissementdhébergementpourpersonnesâgées
-2758,EHPAD,Etablissement hébergeant des personnes âgées dépendantes,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ehpadetablissementhébergeantdespersonnesâgéesdépendantes
+2758,EHPAD,Établissement hébergeant des personnes âgées dépendantes,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ehpadétablissementhébergeantdespersonnesâgéesdépendantes
 2768,EI,Entreprise D’insertion,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,voir aussi CNEI,,,eientreprisedinsertion
 2769,EID,Entente interdépartementale pour la démoustication du littoral méditerranéen,Sénat,https://www.senat.fr/histoire/sigles.html,,,,eidententeinterdépartementalepourladémousticationdulittoralméditerranéen
 5948,EIEF,"Escroquerie, Infraction Économique ou Financière",Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,eiefescroquerie
@@ -2444,7 +2444,7 @@ c50,DSPAP,Direction de la sécurité de proximité de l’agglomération parisie
 2779,EMEA,Agence européenne des médicaments,Keratocone,https://www.keratocone.net/acronymes.html,,,,emeaagenceeuropéennedesmédicaments
 2790,EMGI,Évolution moyenne de la grille indiciaire,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,emgiévolutionmoyennedelagrilleindiciaire
 2791,EMOP,Equipe Mobile d’Ouvriers Professionnels,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,emopequipemobiledouvriersprofessionnels
-2792,EMP,Etablissement médico-psychologique,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,empetablissementmédicopsychologique
+2792,EMP,Établissement médico-psychologique,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,empétablissementmédicopsychologique
 2793,EMS,Équipe médico-sociale,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,emséquipemédicosociale
 5950,EMSM,Ensemble Modulaire de Stockage de Munition,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,emsmensemblemodulairedestockagedemunition
 2794,EMSP,Equipe Mobile de Soins Palliatifs,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,emspequipemobiledesoinspalliatifs
@@ -2488,43 +2488,43 @@ c24,ENSM,Ecole Nationale Supèrieure Maritime,ENSM,https://www.supmaritime.fr/,"
 2840,EPA,Établissements publics à caractère administratif,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epaétablissementspublicsàcaractèreadministratif
 2843,EPAD,Établissement public pour l'aménagement de la Défense,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epadétablissementpublicpourlaménagementdeladéfense
 2844,EPARECA,Établissement public d’aménagement et de reconstruction des espaces commerciaux et artisanaux,Sénat,https://www.senat.fr/histoire/sigles.html,,,,eparecaétablissementpublicdaménagementetdereconstructiondesespacescommerciauxetartisanaux
-2845,EPCA,Etablissement Public à Caractère Administratif,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,epcaetablissementpublicàcaractèreadministratif
-2846,EPCC,Etablissement public de coopération culturelle,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epccetablissementpublicdecoopérationculturelle
-2842,EPCI,Etablissement public de coopération intercommunale,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epcietablissementpublicdecoopérationintercommunale
+2845,EPCA,Établissement Public à Caractère Administratif,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,epcaétablissementpublicàcaractèreadministratif
+2846,EPCC,Établissement public de coopération culturelle,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epccétablissementpublicdecoopérationculturelle
+2842,EPCI,Établissement public de coopération intercommunale,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epciétablissementpublicdecoopérationintercommunale
 2853,EPCSC,Établissement public à caractère scientifique et culturel,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,epcscétablissementpublicàcaractèrescientifiqueetculturel
 2854,EPDSAE,"Établissement Public Départemental de Soins, d’Adaptation et d’Éducation",L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epdsaeétablissementpublicdépartementaldesoins
 2855,EPE,Ecole des parents et éducateurs,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epeecoledesparentsetéducateurs
 2851,EPF,Enquête Périnatale Française,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epfenquêtepérinatalefrançaise
 2852,EPF,Établissement public foncier (état),M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,epfétablissementpublicfoncierétat
 2858,EPFIA,European Federation of Pharmaceutical Industries and Associations,Keratocone,https://www.keratocone.net/acronymes.html,,,,epfiaeuropeanfederationofpharmaceuticalindustriesandassociations
-2856,EPFL,Etablissement public foncier local,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epfletablissementpublicfoncierlocal
+2856,EPFL,Établissement public foncier local,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epflétablissementpublicfoncierlocal
 2861,EPGV,Education Physique et Gymnastique Volontaire,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epgveducationphysiqueetgymnastiquevolontaire
 2859,EPI,Equipement de protection individuelle,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,epiequipementdeprotectionindividuelle
 2860,EPI,Étude prévisionnelle d'installation.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,epiétudeprévisionnelledinstallation
 2867,EPIC,Établissements publics industriels et commerciaux,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epicétablissementspublicsindustrielsetcommerciaux
-2868,EPIDe,Etablissement public d'insertion de la Défense,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epideetablissementpublicdinsertiondeladéfense
+2868,EPIDe,Établissement public d'insertion de la Défense,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epideétablissementpublicdinsertiondeladéfense
 2872,EPL,Établissement public local.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,eplétablissementpubliclocal
-2873,EPLE,Etablissements publics locaux d'enseignement,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epleetablissementspublicslocauxdenseignement
-2876,EPM,Etablissements pénitentiaires pour mineurs,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epmetablissementspénitentiairespourmineurs
+2873,EPLE,Établissements publics locaux d'enseignement,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epleétablissementspublicslocauxdenseignement
+2876,EPM,Établissements pénitentiaires pour mineurs,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epmétablissementspénitentiairespourmineurs
 2877,EPMO,Emploi Protégé en Milieu Ordinaire,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epmoemploiprotégéenmilieuordinaire
-2878,EPMOTC,Etablissement public chargé de la maîtrise d’ouvrage de travaux culturels,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epmotcetablissementpublicchargédelamaîtrisedouvragedetravauxculturels
+2878,EPMOTC,Établissement public chargé de la maîtrise d’ouvrage de travaux culturels,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epmotcétablissementpublicchargédelamaîtrisedouvragedetravauxculturels
 2879,EPMS,Établissement Public Médico-social,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epmsétablissementpublicmédicosocial
 5953,EPMS,Éducation Physique Militaire et Sportive,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,epmséducationphysiquemilitaireetsportive
 2880,EPN,Établissement public national,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,epnétablissementpublicnational
-2881,EPORA,Etablissement public foncier de l'Ouest Rhône-Alpes,Sénat,https://www.senat.fr/histoire/sigles.html,,,,eporaetablissementpublicfoncierdelouestrhônealpes
+2881,EPORA,Établissement public foncier de l'Ouest Rhône-Alpes,Sénat,https://www.senat.fr/histoire/sigles.html,,,,eporaétablissementpublicfoncierdelouestrhônealpes
 2882,EPP,Evaluation des Pratiques Professionnelles,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,eppevaluationdespratiquesprofessionnelles
 2883,EPPM,Enquéte Permanente sur la Prescription Médicale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,eppmenquétepermanentesurlaprescriptionmédicale
 2874,EPR,Établissement public régional,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,eprétablissementpublicrégional
 2875,EPR,Réacteur européen à eau pressurisée,Sénat,https://www.senat.fr/histoire/sigles.html,,,,eprréacteureuropéenàeaupressurisée
-2884,EPRD,Etat prévisionnel des dépenses et des recettes,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,eprdetatprévisionneldesdépensesetdesrecettes
+2884,EPRD,État prévisionnel des dépenses et des recettes,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,eprdétatprévisionneldesdépensesetdesrecettes
 2886,EPS,Éducation physique et sportive,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epséducationphysiqueetsportive
 2888,EPS,Établissement Public de Santé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epsétablissementpublicdesanté
-2889,EPSCP,"Etablissement public à caractère scientifique, culturel et professionnel",Sénat,https://www.senat.fr/histoire/sigles.html,,,,epscpetablissementpublicàcaractèrescientifique
+2889,EPSCP,"Établissement public à caractère scientifique, culturel et professionnel",Sénat,https://www.senat.fr/histoire/sigles.html,,,,epscpétablissementpublicàcaractèrescientifique
 2894,EPSM,établissement Public de Santé Mentale (ex CHS),L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epsmétablissementpublicdesantémentaleexchs
 2895,EPSR,Equipe de préparation et de suite du reclassement des personnes handicapées,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epsrequipedepréparationetdesuitedureclassementdespersonneshandicapées
 2896,EPSS,École Pratique De Service Social,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,epssécolepratiquedeservicesocial
-2892,EPST,Etablissement public à caractère scientifique et technique,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epstetablissementpublicàcaractèrescientifiqueettechnique
-2903,EPTB,Etablissement public territorial de bassin,Sénat,https://www.senat.fr/histoire/sigles.html,,,,eptbetablissementpublicterritorialdebassin
+2892,EPST,Établissement public à caractère scientifique et technique,Sénat,https://www.senat.fr/histoire/sigles.html,,,,epstétablissementpublicàcaractèrescientifiqueettechnique
+2903,EPTB,Établissement public territorial de bassin,Sénat,https://www.senat.fr/histoire/sigles.html,,,,eptbétablissementpublicterritorialdebassin
 2904,EPU,Enseignement postuniversitaire,Keratocone,https://www.keratocone.net/acronymes.html,,,,epuenseignementpostuniversitaire
 2905,EQTP,Équivalents temps plein annualisés,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,eqtpéquivalentstempspleinannualisés
 2900,ER,Emplacement réservé,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,eremplacementréservé
@@ -2537,10 +2537,10 @@ c24,ENSM,Ecole Nationale Supèrieure Maritime,ENSM,https://www.supmaritime.fr/,"
 2912,ERASMUS,Programme d'action de la communauté européenne en matière de mobilité des étudiants universitaires.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,erasmusprogrammedactiondelacommunautéeuropéenneenmatièredemobilitédesétudiantsuniversitaires
 2913,ERD,Électricité réseau de distribution,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,erdélectricitéréseaudedistribution
 2914,ERDF,Électricité réseau distribution France,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,erdfélectricitéréseaudistributionfrance
-2915,ERDV,Etablissement régional pour déficients visuels,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,erdvetablissementrégionalpourdéficientsvisuels
-2916,EREA,Etablissement Régional d’Enseignement Adapté,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ereaetablissementrégionaldenseignementadapté
+2915,ERDV,Établissement régional pour déficients visuels,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,erdvétablissementrégionalpourdéficientsvisuels
+2916,EREA,Établissement Régional d’Enseignement Adapté,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ereaétablissementrégionaldenseignementadapté
 5954,ERIS,Equipe Régionale d'Intervention et de Sécurité,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,erisequiperégionaledinterventionetdesécurité
-2917,ERNT,Etat des risques naturels technologiques,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,erntetatdesrisquesnaturelstechnologiques
+2917,ERNT,État des risques naturels technologiques,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,erntétatdesrisquesnaturelstechnologiques
 2906,ERP,Enterprise Resource Planning (progiciel de gestion intégré),beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,erpenterpriseresourceplanningprogicieldegestionintégré
 2907,ERP,Établissement recevant du public,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,erpétablissementrecevantdupublic
 2921,ERTS,Ecole regionale en travail social,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ertsecoleregionaleentravailsocial
@@ -2566,7 +2566,7 @@ c24,ENSM,Ecole Nationale Supèrieure Maritime,ENSM,https://www.supmaritime.fr/,"
 5958,ETI,Enquêteur Travail Illégal,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,etienquêteurtravailillégal
 2936,ETP,Éducation Thérapeutique du Patient,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,etpéducationthérapeutiquedupatient
 2941,ETP,Équivalent temps plein,Ministère de la Justice,http://www.justice.gouv.fr/art_pix/Stat_Annuaire_ministere-justice_sigles.pdf,,,,etpéquivalenttempsplein
-2942,ETP,Etablissement de travail protégé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,etpetablissementdetravailprotégé
+2942,ETP,Établissement de travail protégé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,etpétablissementdetravailprotégé
 2945,ETPE,Équivalent temps plein emploi,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,etpeéquivalenttempspleinemploi
 2946,ETPF,Équivalent temps plein financier,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,etpféquivalenttempspleinfinancier
 2947,ETPR,Équivalent temps plein rémunéré,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,etpréquivalenttempspleinrémunéré
@@ -3119,7 +3119,7 @@ c16,HATVP,Haute autorité pour la transparence de la vie publique,HATVP,https://
 3535,IATP,Imposition additionnelle à la taxe professionnelle,Sénat,https://www.senat.fr/histoire/sigles.html,,,,iatpimpositionadditionnelleàlataxeprofessionnelle
 3536,IAURIF,Institut d'aménagement et d'urbanisme de la région Ile-de-France,Sénat,https://www.senat.fr/histoire/sigles.html,,,,iaurifinstitutdaménagementetdurbanismedelarégioniledefrance
 3537,IBN.,Indice biologique global normalisé.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,ibnindicebiologiqueglobalnormalisé
-3528,IBODE,Infirmier de bloc opératoire diplômée d’Etat,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,ibodeinfirmierdeblocopératoirediplôméedetat
+3528,IBODE,Infirmier de bloc opératoire diplômée d’État,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,ibodeinfirmierdeblocopératoirediplôméedétat
 3540,ICC,Institut du commerce et de la consommation,Sénat,https://www.senat.fr/histoire/sigles.html,,,,iccinstitutducommerceetdelaconsommation
 6032,ICCP,"Identification, Clac, Charge, Prêt !",Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,iccpidentification
 3541,ICHN,Indemnités compensatrices de handicaps naturels,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ichnindemnitéscompensatricesdehandicapsnaturels
@@ -3271,7 +3271,7 @@ c42,IGESR,"Inspection générale de l'éducation, du sport et de la recherche",I
 3757,IRC,Infirmière de Recherche Clinique,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,ircinfirmièrederechercheclinique
 3758,IRCA,Institution de Retraites Complémentaires Agricoles,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,ircainstitutionderetraitescomplémentairesagricoles
 3759,IRCAM,Institut de recherche et de coordination acoustique-musique,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ircaminstitutderechercheetdecoordinationacoustiquemusique
-3755,IRCANTEC,Institut de retraite complémentaire des agents non titulaires de l'Etat et des collectivités locales,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ircantecinstitutderetraitecomplémentairedesagentsnontitulairesdeletatetdescollectivitéslocales
+3755,IRCANTEC,Institut de retraite complémentaire des agents non titulaires de l'État et des collectivités locales,Sénat,https://www.senat.fr/histoire/sigles.html,,,,ircantecinstitutderetraitecomplémentairedesagentsnontitulairesdelétatetdescollectivitéslocales
 3763,IRCEM,Institution de Retraite des Employés de Maison,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,irceminstitutionderetraitedesemployésdemaison
 6044,IRCGN,Institut de Recherche Criminelle de la Gendarmerie Nationale,Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,ircgninstitutderecherchecriminelledelagendarmerienationale
 3764,IRCHA,Institut national de recherche chimique appliquée,Sénat,https://www.senat.fr/histoire/sigles.html,,,,irchainstitutnationalderecherchechimiqueappliquée
@@ -3630,7 +3630,7 @@ c58,MNA,Mineur Non Accompagné,Ministère de la Justice,http://www.justice.gouv.
 4134,NNE,Nouvelle nomenclature des emplois (FPE civile),DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,nnenouvellenomenclaturedesemploisfpecivile
 4135,NOMADE,Nomenclature Affaires Etrangères des emplois,Publidia,https://concours-fonction-publique.publidia.fr/guide-fonction-publique/infos-utiles/lexique-fonction-publique,,,,nomadenomenclatureaffairesetrangèresdesemplois
 4136,NOTI1,NOTI1 Information au candidat retenu - (ex formulaire DC6 Déclaration relative à la lutte contre le travail dissimulé),marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,noti1noti1informationaucandidatretenuexformulairedc6déclarationrelativeàlaluttecontreletravaildissimulé
-4137,NOTI2,NOTI2 Etat annuel des certificats reçus (certificats fiscaux et sociaux) - ex formulaire DC7,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,noti2noti2etatannueldescertificatsreçuscertificatsfiscauxetsociauxexformulairedc7
+4137,NOTI2,NOTI2 État annuel des certificats reçus (certificats fiscaux et sociaux) - ex formulaire DC7,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,noti2noti2étatannueldescertificatsreçuscertificatsfiscauxetsociauxexformulairedc7
 c2,NOTRe,Nouvelle organisation territoriale de la République (loi),Ministère de la cohésion des territoires,https://cohesion-territoires.gouv.fr/loi-portant-sur-la-nouvelle-organisation-territoriale-de-la-republique-notre,,,,notrenouvelleorganisationterritorialedelarépubliqueloi
 4138,NPAI,N’habite Pas à l’Adresse Indiquée,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,npainhabitepasàladresseindiquée
 4139,NRBC,"Nucléaires, radiologiques biologiques et chimiques",M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,nrbcnucléaires
@@ -3806,7 +3806,7 @@ c15,ORT,Opération de revitalisation de territoire,Ministère de la cohésion de
 4327,PACS,Pacte civil de solidarité,Sénat,https://www.senat.fr/histoire/sigles.html,,,,pacspactecivildesolidarité
 4333,PACT,"Protection, amélioration, conservation, transformation de l’habitat",L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,pactprotection
 4334,PACT-ARIM,Propagande et action contre le taudis. Associations de restauration immobilière,Sénat,https://www.senat.fr/histoire/sigles.html,,,,pactarimpropagandeetactioncontreletaudisassociationsderestaurationimmobilière
-4335,PACTE,"Parcours d'Accès aux Carrières de la fonction publique territoriale, hospitalière et de l'Etat",Publidia,https://concours-fonction-publique.publidia.fr/guide-fonction-publique/infos-utiles/lexique-fonction-publique,,,,pacteparcoursdaccèsauxcarrièresdelafonctionpubliqueterritoriale
+4335,PACTE,"Parcours d'Accès aux Carrières de la fonction publique territoriale, hospitalière et de l'État",Publidia,https://concours-fonction-publique.publidia.fr/guide-fonction-publique/infos-utiles/lexique-fonction-publique,,,,pacteparcoursdaccèsauxcarrièresdelafonctionpubliqueterritoriale
 4336,PADA,Plateforme D’accueil Des Demandeurs D’asile,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,padaplateformedaccueildesdemandeursdasile
 4331,PADD,Projet d'aménagement et de développement durable,Sénat,https://www.senat.fr/histoire/sigles.html,,,,paddprojetdaménagementetdedéveloppementdurable
 4337,PAE,Programme d'aménagement d'ensemble.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,paeprogrammedaménagementdensemble
@@ -3845,8 +3845,8 @@ c15,ORT,Opération de revitalisation de territoire,Ministère de la cohésion de
 4379,PARM,Permanencier Auxiliaire de Régulation Médicale,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,parmpermanencierauxiliairederégulationmédicale
 4380,PAS,Prêt d’Accession Sociale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,pasprêtdaccessionsociale
 4381,PASA,Pôles d’Activités et de Soins Adaptés,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,pasapôlesdactivitésetdesoinsadaptés
-4382,PASED,Projet d’action stratégique de l’Etat en département (LOLF),CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,,,,pasedprojetdactionstratégiquedeletatendépartementlolf
-4383,PASER,Projet d’action stratégique de l’Etat en région (LOLF),CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,,,,paserprojetdactionstratégiquedeletatenrégionlolf
+4382,PASED,Projet d’action stratégique de l’État en département (LOLF),CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,,,,pasedprojetdactionstratégiquedelétatendépartementlolf
+4383,PASER,Projet d’action stratégique de l’État en région (LOLF),CNLES,https://www.cnle.gouv.fr/Sigles-de-l-Administration.html,,,,paserprojetdactionstratégiquedelétatenrégionlolf
 4384,PASS,Permanence d’accès aux soins de santé,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,passpermanencedaccèsauxsoinsdesanté
 4385,PAT,Prime d'aménagement du territoire,Sénat,https://www.senat.fr/histoire/sigles.html,,,,patprimedaménagementduterritoire
 6136,PATRACDVR,"Personnels, Armement, Tenue, Radio, Alimentation, Camouflage, Divers, Véhicules, Rassemblement",Denis Merigoux,https://gist.github.com/ColinMaudry/fe30f024d3cea20d1f6ccd579d9acd3f#file-gendarmerie-csv,,,,patracdvrpersonnels
@@ -3890,7 +3890,7 @@ c25,PDU,Plan de Déplacements Urbains,Code des transports,https://www.legifrance
 4423,PDZR,Programme de déplacement des zones rurales.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,pdzrprogrammededéplacementdeszonesrurales
 4420,PE,Parlement européen.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,peparlementeuropéen
 4421,PE,Pôle emploi,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,pepôleemploi
-4424,PE,Projet d’Etablissement,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,peprojetdetablissement
+4424,PE,Projet d’Établissement,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,peprojetdétablissement
 4427,PEA,Plans d’épargne en actions,Sénat,https://www.senat.fr/histoire/sigles.html,,,,peaplansdépargneenactions
 4428,PEB,Plan d'exposition au bruit.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,pebplandexpositionaubruit
 4429,PEC,Prise En Charge,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,pecpriseencharge
@@ -4337,7 +4337,7 @@ c65,RPS,Rémunération publique des stagiaires,Pôle emploi,pole-emploi.fr/candi
 4862,SAD,Soins à domicile,DGOS,http://www.metiers-fonctionpubliquehospitaliere.sante.gouv.fr/Lexique-des-abreviations-ou-sigles.html,,,,sadsoinsàdomicile
 4868,SAD,Système d’Acquisition Dynamique,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,sadsystèmedacquisitiondynamique
 4871,SADJAV,Service de l’accès au droit et à la justice et de l’aide aux victimes,Ministère de la Justice,http://www.justice.gouv.fr/art_pix/Stat_Annuaire_ministere-justice_sigles.pdf,,,,sadjavservicedelaccèsaudroitetàlajusticeetdelaideauxvictimes
-4869,SAE,Service des Achats de l'Etat,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,saeservicedesachatsdeletat
+4869,SAE,Service des Achats de l'État,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,,,,saeservicedesachatsdelétat
 4870,SAE,Société anonyme européenne.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,saesociétéanonymeeuropéenne
 4872,SAE,Stage d'accès à l'entreprise,Sénat,https://www.senat.fr/histoire/sigles.html,,,,saestagedaccèsàlentreprise
 4876,SAE,Statistique annuelle sur les établissements de santé,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,saestatistiqueannuellesurlesétablissementsdesanté
@@ -4503,7 +4503,7 @@ c85,SDLC,Sous-direction de lutte contre la cybercriminalité,Ministère de l'int
 c55,SGDSN,Secrétariat général de la défense et de la sécurité nationale,SGDSN,http://www.sgdsn.gouv.fr/,"Héritier du secrétariat du Conseil supérieur de la défense nationale, cet organisme interministériel fut tour à tour secrétariat ou état-major, avant d’adopter en 1962 la forme d’un secrétariat général de la défense nationale (SGDN), devenu en 2009 secrétariat général de la défense et de la sécurité nationale (SGDSN). Malgré ces changements d’appellation et les évolutions de son périmètre d’action, le cœur de la mission principale du SGDSN reste le même au cours du temps : garantir l’adaptation, la cohérence et la continuité de l’action de l’Etat dans le domaine de la défense et, plus récemment, de la sécurité. Relevant du Premier ministre, le SGDSN joue ainsi, dans son domaine de compétence, le rôle de trait d’union entre le gouvernement et le Président de la République. Il est une pièce de cohésion au sein de l’exécutif en assurant notamment le secrétariat des conseils de défense et de sécurité nationale que préside le chef de l’Etat. A la confluence des diverses sources publiques d’information et du renseignement, il occupe une fonction de vigie chargée de cerner les menaces pouvant affecter notre pays.",SGDSN,http://www.sgdsn.gouv.fr/,sgdsnsecrétariatgénéraldeladéfenseetdelasécuriténationale
 5035,SGFGAS,Société de Gestion du Fonds de Garantie de l’Accession Sociale,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,sgfgassociétédegestiondufondsdegarantiedelaccessionsociale
 5030,SGG,Secrétariat général du gouvernement,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,sggsecrétariatgénéraldugouvernement
-5037,SGMAP,Secrétariat Général pour la Modernisation de l'action Publique.,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,Il a été remplacé par la DITP et la direction interministérielle du numérique et du système d’information et de communication de l’Etat (DINSIC).,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,sgmapsecrétariatgénéralpourlamodernisationdelactionpublique
+5037,SGMAP,Secrétariat Général pour la Modernisation de l'action Publique.,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,Il a été remplacé par la DITP et la direction interministérielle du numérique et du système d’information et de communication de l’État (DINSIC).,marche-public.fr,http://www.marche-public.fr/Marches-publics/Definitions/Marches-publics-Sigles.htm,sgmapsecrétariatgénéralpourlamodernisationdelactionpublique
 5040,SGMCAS,Secrétariat général des ministères chargés des affaires sociales,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,sgmcassecrétariatgénéraldesministèreschargésdesaffairessociales
 5041,SHO,Surface de plancher hors œuvre.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,shosurfacedeplancherhorsœuvre
 5042,SHOB,Surface hors œuvre brute.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,shobsurfacehorsœuvrebrute
@@ -4512,7 +4512,7 @@ c55,SGDSN,Secrétariat général de la défense et de la sécurité nationale,SG
 6368,SI-DEP,Système d’information de dépistage,Ameli,https://www.ameli.fr/assure/covid-19/detecter-depister-isoler-comprendre-la-strategie-de-deconfinement/contact-covid-et-si-dep-des-outils-au-service-du-deconfinement,,,,sidepsystèmedinformationdedépistage
 5046,SIA,Syndicat intercommunal d'assainissement.,M. Lafay - CCE-LR,http://www.cce-lrv.com/documents/images/general_photos/151_Fichier.pdf,,,,siasyndicatintercommunaldassainissement
 5047,SIAD,Soins Infirmiers À Domicile,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,siadsoinsinfirmiersàdomicile
-5048,SIADE,Système Interne d'Api De l'Etat,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,siadesystèmeinternedapideletat
+5048,SIADE,Système Interne d'Api De l'État,beta.gouv.fr,https://github.com/betagouv/glossary-bot,,,,siadesystèmeinternedapidelétat
 5049,SIAE,Structures D’insertion Par L’activité Economique,L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,siaestructuresdinsertionparlactivitéeconomique
 5050,SIAO,Service Intégré D’accueil Et d’Orientation (voir aussi PDAHI Dispositif faisant parti du 115),L. Bohu - maraudes.fr,http://maraudes.fr/glossaire-sigles-social-de-sante-de-ladministration/,,,,siaoserviceintégrédaccueiletdorientationvoiraussipdahidispositiffaisantpartidu115
 5051,SIASP,Système d'information sur les agents des services publics,DGAFP,https://www.fonction-publique.gouv.fr/files/files/statistiques/rapports_annuels/2016/G_Liste_des_sigles.pdf,,,,siaspsystèmedinformationsurlesagentsdesservicespublics
