@@ -11,7 +11,7 @@ echo "id,key" > dicKeys.csv
 while IFS=, read -r `echo $head | sed 's/,/ /g'`
 do
     key=`makeKey "$term" "$definition"`
-    echo $id,${key} >> dicKeys.csv
+    echo "$id,${key}" >> dicKeys.csv
 done < $file
 
 echo "Jointure de $file et dicKeys.csv pour ajouter la colonne keys..."

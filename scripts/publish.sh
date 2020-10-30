@@ -2,7 +2,7 @@
 
 source scripts/config.sh
 
-sigles=data/sigles.csv
+sigles=$sigles
 
 if [[ "$1" ]]
 then
@@ -33,7 +33,7 @@ then
 fi
 
 # Mise à jour de l'URL de la ressource et du nombre de sigles dans l'app
-nb=`xsv count data/sigles.csv`
+nb=`xsv count $sigles`
 echo ""
 echo "$nb sigles"
 

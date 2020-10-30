@@ -1,8 +1,9 @@
 #!/bin/bash
 
+source scripts/config.sh
+
 contributions="data/contributionsVerifiees.csv"
 slashtrad="data/slashtrad.csv"
-sigles="data/sigles.csv"
 
 ./scripts/getContributions.sh &
 ./scripts/getSlashtrad.sh
