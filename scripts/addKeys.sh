@@ -1,7 +1,7 @@
 #!/bin/bash
 file="$1"
 
-source scripts/makeKey.sh
+source scripts/functions.sh
 
 head=`head -n 1 $file`
 
