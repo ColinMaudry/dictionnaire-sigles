@@ -18,11 +18,10 @@ fi
 xsv search --select explanation ".+" $file | xsv select term,definition,explanation | xsv fmt -t "$d" > $file.temp
 xsv search --select explanation "^\$" $sigles | xsv select key > dicNoExplanation.csv
 
-source scripts/makeKey.sh
+echo "term,explanation,source_explanation,url_source_explanation" > $file.expl.csv
 
 while IFS="$d" read -r term definition explanation
 do
-    echo $term
     key2=`makeKey "$term" "$definition"`
     for key in `cat dicNoExplanation.csv`
     do
@@ -37,4 +36,6 @@ do
 done < $file.temp
 
 echo "$newExplanations nouvelles explications."
-rm $file.temp dicNoExplanation.csv
+rm $file.temp
+
+# Problème de guillements dans le CSV, qui casse la séparation des cases. Voir AIFE.
