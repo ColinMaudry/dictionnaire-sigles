@@ -27,7 +27,8 @@ do
     do
         if [[ "$key2" == "$key" ]]
         then
-            echo "$term,$explanation,$source,$urlSource" >> $file.expl.csv
+            echo "$term"
+            echo "$term,`csv "$explanation"`,$source,$urlSource" >> $file.expl.csv
             ((newExplanations++))
         fi
     done < dicNoExplanation.csv

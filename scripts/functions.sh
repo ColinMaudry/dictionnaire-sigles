@@ -15,3 +15,14 @@ newDelimiter() {
     xsv fmt -t "$d" $file > $file.newdelim
     echo $file.newdelim
 }
+
+csv() {
+    input="$1"
+    if [ ! "${input:0:1}" == '"' -a ! "${input:-1}" == '"' ]
+    then
+        output="\"$input\""
+    else
+        output="$input"
+    fi
+    echo "$output"
+}
