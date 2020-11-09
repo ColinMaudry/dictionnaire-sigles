@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 source scripts/config.sh
+source scripts/functions.sh
 
 file=$1
 source=$2
@@ -14,12 +15,12 @@ then
     exit 1
 fi
 
-xsv search --select explanation ".+" $file | xsv select term,definition,explanation > $file.temp
+xsv search --select explanation ".+" $file | xsv select term,definition,explanation | xsv fmt -t "$d" > $file.temp
 xsv search --select explanation "^\$" $sigles | xsv select key > dicNoExplanation.csv
 
 source scripts/makeKey.sh
 
-while IFS=, read -r term definition explanation
+while IFS="$d" read -r term definition explanation
 do
     echo $term
     key2=`makeKey "$term" "$definition"`
