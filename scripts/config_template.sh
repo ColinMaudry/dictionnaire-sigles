@@ -10,3 +10,8 @@ slashtradUrl=https://docs.google.com/spreadsheets/d/1H6708p9IT9hfdDY1C02PX33ZmLy
 resource_sigle_id=0fca6fc3-4919-458d-9c81-a2cf54a801ba
 
 datagouvfr_API_key=
+
+sigles=data/sigles.csv
+
+# Délimiteur alternatif pour remplacer les virgules, sources d'erreur dans les traitements en bash
+d="|"

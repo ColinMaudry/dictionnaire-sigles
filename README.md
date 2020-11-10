@@ -4,6 +4,22 @@
 
 ==> https://dicosigles.fr
 
+## Utilisation
+
+**Pour comparer un fichier CSV de termes** (en-têtes : `id,term,definition,explanation`, `explanation` peut être vide) avec data/sigles.csv :
+
+```bash
+./scripts/compareKeysWithDic.sh [fichier de termes] [nom de la source de ce fichier] [URL de la source]
+```
+
+Le script produit un fichier `.new.csv` à côté du fichier de termes contenant les termes qui ne sont pas encore présents dans data/sigles.csv (et dicosigles.fr).
+
+**Pour détecter les explications dans un fichier CSV de termes pouvant compléter des termes existants** dans data/sigles.csv :
+
+```bash
+scripts/saveNewExplanations.sh [fichier de termes] [nom de la source de ce fichier] [URL de la source]
+```
+
 ## Notes de version
 
 ### 1.3.2 (01/09/2020)

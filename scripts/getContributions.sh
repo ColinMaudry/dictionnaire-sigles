@@ -3,8 +3,6 @@
 source ./scripts/config.sh
 
 newFile=$1
-dict=./data/sigles.csv
-newDict=./data/newSigles.csv
 
 rm data/contribution*
 
@@ -42,18 +40,3 @@ xsv select $headers | \
 tail -n +2 >> data/contributionsVerifiees.csv
 
 rm data/contributionsTemp.csv
-# echo "term,definition,source,url_source,key" > $newDict
-#
-# while IFS=, read -r term definition,source,url_source,key
-# do
-#   if [[ ! $term == "term" ]]
-#   then
-#
-#     # Removing punctuation
-#     hash=`echo $definition | tr -d "[:punct:][:space:]"`
-#
-#     # Normalizing accentuation
-#     hash=`echo $hash | tr `
-#     newkey=
-#   fi
-# done < $dict
