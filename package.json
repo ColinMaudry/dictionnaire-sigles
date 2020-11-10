@@ -41,7 +41,7 @@
   ],
   "config": {
     "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20201110-194200/sigles.csv",
-    "nbTerms": 5112
+    "nbTerms": 5503
   },
   "license": "MIT",
   "repository": "https://github.com/ColinMaudry/dictionnaire-sigles.git"
