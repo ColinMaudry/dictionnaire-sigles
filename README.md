@@ -1,8 +1,9 @@
+
 # Dictionnaire des sigles
 
 > Version 1.3.2
 
-==> https://dicosigles.fr
+=> https://dicosigles.fr
 
 ## Utilisation
 
