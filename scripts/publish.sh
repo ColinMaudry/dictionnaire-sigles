@@ -11,7 +11,7 @@ then
 
   # Pour l'instant l'app ne gère pas les colonnes supplémentaires
   cp $sigles ${sigles}.ori
-  xsv select "term,definition,source,url_source" $sigles > temp.csv
+  xsv select "term,definition,source,url_source" $sigles | xsv sort -s term > temp.csv
   mv temp.csv $sigles
 
   curl -sL "$api/datasets/5ee0d624d915e528468166c6/resources/${resource_sigle_id}/upload/" -F "file=@$sigles" -H "X-API-KEY: $datagouvfr_API_key" > response.json
@@ -49,4 +49,3 @@ git commit -m "Nombre d'entrées actualisé ($nb) mis à jour"
 
 echo ""
 echo "Publication complète, n'oublie pas de marquer les contributions comme publiées."
-

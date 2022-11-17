@@ -23,6 +23,11 @@ then
     cp $slashtrad $sigles
     tail -n +2 $contributions >> $sigles
 
+    # Tri alphabétique
+    
+    xsv sort -s term $sigles > $sigles.tmp
+    mv $sigles.tmp $sigles
+
     # Ajout des clés dans $sigles
 
     scripts/addKeys.sh $sigles
