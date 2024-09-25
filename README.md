@@ -47,6 +47,8 @@ Colonnes obligatoires (dans n'importe quel ordre) :
 ### 1.3.3 (25/09/2024)
 
 - changement de l'URL d'API utilisée (csvapi => tabular-api)
+- suppression de l'iframe Matomo
+- correction de bugs dans le script getContributions.sh
 
 ### 1.3.2 (01/09/2020)
 
