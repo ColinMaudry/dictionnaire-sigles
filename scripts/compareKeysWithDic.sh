@@ -39,7 +39,7 @@ do
                 break;
             fi
         done
-        if [[ $isDuplicate = 0 ]]
+        if [[ $isDuplicate == 0 ]]
         then
             if [[ $explanation == "" ]]
             then
