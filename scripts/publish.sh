@@ -39,7 +39,7 @@ echo "$nb sigles"
 
 jq --arg nb $nb '.config.nbTerms |= ($nb|tonumber)' package.json > temp
 mv temp package.json
-git add package.json
+git add package.json data/sigles.csv
 
 # Ajout du nombre d'entrées dans le <title>
 sed -i "s/[0-9]* entrées/$nb entrées/" public/index.html
