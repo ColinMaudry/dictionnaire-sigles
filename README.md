@@ -6,6 +6,12 @@
 
 ## Utilisation
 
+**Pour combiner la base de sigles et les contributions dans data/sigles.csv**
+
+1. remplir scripts/config.sh
+2. exécuter scripts/merge.sh
+3. si tout est bon, exéculter scripts/publish.sh
+
 **Pour ajouter des sigles au dictionnaire à partir d'un fichier CSV**
 
 Le fichier CSV importé doit avoir les champs attendus.
