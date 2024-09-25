@@ -60,15 +60,14 @@ export default {
       error: null,
       hasClipboardApi:false,
       currentPage: 1,
-      perPage: 100,
+      perPage: 50,
       loading: false,
       search: "",
       nbTerms: process.env.VUE_APP_NBTERMS,
       resource: {
-        url: process.env.VUE_APP_RESOURCEURL
+        id: process.env.VUE_APP_RESOURCEID
       },
       showRowId: false,
-      columns: [],
       rows: []
     }
   },
@@ -104,28 +103,17 @@ export default {
     makeSearch() {
     if (this.search !== "") {
       let ctx=this;
+
       console.log("Let's search " + this.search);
-      const url = 'https://csvapi.data.gouv.fr/apify'
+      const url = `https://tabular-api.data.gouv.fr/api/resources/${ctx.resource.id}/data/`
       this.loading = true
-      this.request("GET", `${url}?url=${encodeURIComponent(this.resource.url)}`)
-        .then((res) => {
-          let response=JSON.parse(res.target.response);
-          this.endpoint = response.endpoint;
-          return this.endpoint;
-        })
-        .then(endpoint => {
-          let params = `_offset=${(ctx.currentPage - 1) * ctx.perPage}&_shape=objects&term__contains=${this.search}`
-          if (!this.showRowId) {
-            params += '&_rowid=hide'
-          }
-          return this.request("GET", `${endpoint}?${params}`)
-        })
+      let params = `term__sort=asc&page_size=${ctx.perPage}&term__contains=${this.search}`
+      this.request("GET", `${url}?${params}`)
         .then((res) => {
         let response=JSON.parse(res.target.response);
           this.loading = false
-          this.columns = response.columns
-          this.total = response.total
-          this.rows = response.rows
+          this.total = response.meta.total
+          this.rows = response.data
         })
         .catch((error) => {
           this.loading = false

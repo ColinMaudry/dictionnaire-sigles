@@ -1,6 +1,6 @@
 {
   "name": "dictionnaire-sigles-web",
-  "version": "0.1.0",
+  "version": "1.3.3",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern",
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -40,8 +40,8 @@
     "not dead"
   ],
   "config": {
-    "resourceUrl": "https://static.data.gouv.fr/resources/dictionnaire-des-sigles-et-acronymes-de-ladministration/20220126-150320/sigles.csv",
-    "nbTerms": 5527
+    "resourceId": "0fca6fc3-4919-458d-9c81-a2cf54a801ba",
+    "nbTerms": 5503
   },
   "license": "MIT",
   "repository": "https://github.com/ColinMaudry/dictionnaire-sigles.git"

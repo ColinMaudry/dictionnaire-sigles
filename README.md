@@ -1,10 +1,14 @@
 # Dictionnaire des sigles
 
-> Version 1.3.2
+> Version 1.3.3
 
-==> https://dicosigles.fr
+=> https://dicosigles.fr
 
 ## Utilisation
+
+**Pour ajouter des sigles au dictionnaire à partir d'un fichier CSV**
+
+Le fichier CSV importé doit avoir les champs attendus.
 
 **Pour comparer un fichier CSV de termes** (en-têtes : `id,term,definition,explanation`, `explanation` peut être vide) avec data/sigles.csv :
 
@@ -20,7 +24,29 @@ Le script produit un fichier `.new.csv` à côté du fichier de termes contenant
 scripts/saveNewExplanations.sh [fichier de termes] [nom de la source de ce fichier] [URL de la source]
 ```
 
+## Format de fichier
+
+### Format d'import
+
+Le fichier importé doit avoir les caractéritiques suivantes :
+
+Séparateur : ";" ou ","
+
+Colonnes obligatoires (dans n'importe quel ordre) :
+
+- **term** (obligatoire) : le sigle. Par exemple : CADES
+- **definition** (obligatoire) : la forme longue du sigle. Par exemple : Caisse d’amortissement de la dette sociale
+- **url_source** (obligatoire) : l'URL de la page page Web officielle où ce sigle est défini. Par exemple : https://www.cnle.gouv.fr/Sigles-de-l-Administration.html
+- **source** (obligatoire) : nom de la source. Par exemple : CNLE
+- **explanation** (optionnel) : définition du concept. Par exemple : La mission de la CADES est est de financer et d'éteindre la dette cumulée de la Sécurité Sociale.
+- **url_source_explanation** (obligatoire pour chaque explication) : https://www.cades.fr/fr/a-propos/mission-et-fonctionnement
+- **source_explanation** (obligatoire pour chaque explication) : nom de la source de l'explication. Par exemple : CADES.
+
 ## Notes de version
+
+### 1.3.3 (25/09/2024)
+
+- changement de l'URL d'API utilisée (csvapi => tabular-api)
 
 ### 1.3.2 (01/09/2020)
 
