@@ -86,7 +86,7 @@
 
 <p>Ce site dépose un petit fichier texte (un « cookie ») sur votre ordinateur lorsque vous le consultez (<a href="https://fr.wikipedia.org/wiki/Cookie_(informatique)">Wikipédia</a>). Cela me permet de mesurer le nombre de visites et de distinguer les nouveaux visiteurs des utilisateurs réguliers.</p>
 
-<div style="background-color: #ccc;"><iframe style="border: 0; height: 200px; width: 100%;" title="Opt-out du cookie de suivi" src="https://analytics.maudry.com/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=fr&amp;backgroundColor=&amp;fontColor=&amp;fontSize=&amp;fontFamily="></iframe></div>
+<!-- <div style="background-color: #ccc;"><iframe style="border: 0; height: 200px; width: 100%;" title="Opt-out du cookie de suivi" src="https://analytics.maudry.com/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=fr&amp;backgroundColor=&amp;fontColor=&amp;fontSize=&amp;fontFamily="></iframe></div> -->
 
 <h3 id="cesitenaffichepasdebanniredeconsentementauxcookiespourquoi">Ce site n’affiche pas de bannière de consentement aux cookies, pourquoi ?</h3>
 
