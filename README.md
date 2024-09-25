@@ -1,6 +1,6 @@
 # Dictionnaire des sigles
 
-> Version 1.3.3
+> Version 1.4.0
 
 => https://dicosigles.fr
 
@@ -50,8 +50,9 @@ Colonnes obligatoires (dans n'importe quel ordre) :
 
 ## Notes de version
 
-### 1.3.3 (25/09/2024)
+### 1.4.0 (25/09/2024)
 
+- une bonne partie du merge est faite en python/pandas plutôt que bash/xsv
 - changement de l'URL d'API utilisée (csvapi => tabular-api)
 - suppression de l'iframe Matomo
 - correction de bugs dans le script getContributions.sh
